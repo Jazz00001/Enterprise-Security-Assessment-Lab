@@ -135,7 +135,7 @@ All sensitive data: REDACTED
 | 🌐 Web Application VAPT | Web | 🔄 **In Progress** | — | OWASP Top 10 — testing ongoing |
 | 🔌 API Security | API | 🔄 **In Progress** | — | OWASP API Top 10 — prepared |
 | 🟡 GCP Security | Cloud — GCP | 📅 **Deferred** | — | Planned after billing hygiene validated |
-| 📜 Certification Roadmap | — | ✅ **Documented** | — | [`/06-roadmap/`](./06-roadmap/certification-roadmap.md) |
+
 
 </div>
 
