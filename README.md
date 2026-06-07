@@ -12,15 +12,6 @@
 
 ---
 
-<div align="center">
-
-<!-- Core Badges -->
-![Status](https://img.shields.io/badge/Status-Active%20Development-00d4aa?style=for-the-badge&logo=statuspage&logoColor=white)
-![Type](https://img.shields.io/badge/Type-Security%20Research%20Lab-ff6b6b?style=for-the-badge&logo=hackaday&logoColor=white)
-![Level](https://img.shields.io/badge/Level-Beginner%20→%20Advanced-ffd93d?style=for-the-badge&logo=levelsdotfyi&logoColor=black)
-![License](https://img.shields.io/badge/License-MIT-a8dadc?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
-
-
 
 
 <!-- Tech Stack -->
