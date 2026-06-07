@@ -52,38 +52,6 @@
 
 <br/>
 
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square\&logo=kalilinux\&logoColor=white)
-![Windows Server](https://img.shields.io/badge/Windows_Server-0078D6?style=flat-square\&logo=windows\&logoColor=white)
-![Windows 10](https://img.shields.io/badge/Windows_10-0078D6?style=flat-square\&logo=windows\&logoColor=white)
-![Active Directory](https://img.shields.io/badge/Active_Directory-003B57?style=flat-square\&logo=windows\&logoColor=white)
-
-![Python](https://img.shields.io/badge/Python_3.x-3776AB?style=flat-square\&logo=python\&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash_Scripting-4EAA25?style=flat-square\&logo=gnubash\&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square\&logo=portswigger\&logoColor=white)
-
-![BloodHound](https://img.shields.io/badge/BloodHound-DC143C?style=flat-square)
-![Impacket](https://img.shields.io/badge/Impacket-2E4057?style=flat-square\&logo=python\&logoColor=white)
-![Responder](https://img.shields.io/badge/Responder-8B0000?style=flat-square)
-![Hashcat](https://img.shields.io/badge/Hashcat-374151?style=flat-square)
-
-![AWS CLI](https://img.shields.io/badge/AWS_CLI-FF9900?style=flat-square\&logo=amazonaws\&logoColor=white)
-![CloudGoat](https://img.shields.io/badge/CloudGoat-FF6347?style=flat-square)
-![Pacu](https://img.shields.io/badge/Pacu-FF4500?style=flat-square)
-![ScoutSuite](https://img.shields.io/badge/ScoutSuite-1E90FF?style=flat-square)
-
-![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat-square\&logo=microsoftazure\&logoColor=white)
-![Azure CLI](https://img.shields.io/badge/Azure_CLI-0078D4?style=flat-square\&logo=microsoftazure\&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square\&logo=terraform\&logoColor=white)
-
-</div>
-
-
-
-
-
-
-
-
 ## ⚡ What Is This Project?
 
 This is a **from-scratch, end-to-end enterprise penetration testing lab** simulating the exact infrastructure you'd attack in a real corporate engagement — web apps, REST/GraphQL APIs, an Active Directory domain with domain controllers and workstations, and a multi-service AWS cloud environment.
