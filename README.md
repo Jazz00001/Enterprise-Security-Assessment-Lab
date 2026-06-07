@@ -1,63 +1,105 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:1a1a2e,100:16213e&height=300&section=header&text=Enterprise%20Security%20Assessment%20Lab&fontSize=38&fontColor=00d4aa&animation=fadeIn&fontAlignY=38&desc=Web%20%7C%20API%20%7C%20Network%20%7C%20Active%20Directory%20%7C%20Cloud%20VAPT&descAlignY=58&descSize=16&descColor=8892b0" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,30:0a192f,60:112240,100:0d1117&height=280&section=header&text=Enterprise%20Security%20Assessment%20Lab&fontSize=36&fontColor=64ffda&animation=fadeIn&fontAlignY=40&desc=Web%20%7C%20API%20%7C%20Network%20%7C%20Active%20Directory%20%7C%20AWS%20Cloud%20%7C%20Azure&descAlignY=58&descSize=15&descColor=8892b0" width="100%"/>
 
-</div>
-
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3000&pause=1000&color=00D4AA&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=60&lines=Penetration+Testing+%7C+Red+Team+Operations+%7C+Cloud+Security;OWASP+Top+10+%7C+Active+Directory+Attacks+%7C+AWS+Exploitation)](https://git.io/typing-svg)
-
-</div>
-
----
-
-
-
-<!-- Tech Stack -->
 <br/>
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=3500&pause=1200&color=64FFDA&center=true&vCenter=true&multiline=true&repeat=true&width=780&height=55&lines=Hands-on+Penetration+Testing+%7C+Active+Directory+%7C+Cloud+Security;Impacket+%7C+BloodHound+%7C+Responder+%7C+Pacu+%7C+ScoutSuite+%7C+CloudGoat)](https://git.io/typing-svg)
+
+<br/>
+
+<!-- Status & Type -->
+![Status](https://img.shields.io/badge/Status-Active_Portfolio_Project-64ffda?style=for-the-badge&logo=statuspage&logoColor=0d1117)
+![Type](https://img.shields.io/badge/Type-Hands--on_Security_Lab-0a192f?style=for-the-badge&logo=hackthebox&logoColor=64ffda)
+![Level](https://img.shields.io/badge/Level-Beginner_%E2%86%92_Intermediate_Practical-112240?style=for-the-badge&logo=levelsdotfyi&logoColor=ccd6f6)
+![Ethics](https://img.shields.io/badge/Ethics-Authorized_Lab_Only-ff6b6b?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
+
+<br/>
+
+<!-- Platform badges -->
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
-![Python](https://img.shields.io/badge/Python_3.x-3776AB?style=flat-square&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash_Scripting-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![AWS](https://img.shields.io/badge/Amazon_AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Windows Server](https://img.shields.io/badge/Windows_Server_2019-0078D6?style=flat-square&logo=windows&logoColor=white)
+![Windows 10](https://img.shields.io/badge/Windows_10_Enterprise-0078D6?style=flat-square&logo=windows&logoColor=white)
+![Active Directory](https://img.shields.io/badge/Active_Directory-003366?style=flat-square&logo=microsoft&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Python](https://img.shields.io/badge/Python_3.x-3776AB?style=flat-square&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+
+<!-- Tool badges -->
+<br/>
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=portswigger&logoColor=white)
+![BloodHound](https://img.shields.io/badge/BloodHound-DC143C?style=flat-square&logo=github&logoColor=white)
+![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=flat-square&logo=neo4j&logoColor=white)
+![Impacket](https://img.shields.io/badge/Impacket-2E4057?style=flat-square&logo=python&logoColor=white)
+![Responder](https://img.shields.io/badge/Responder-8B0000?style=flat-square)
+![Hashcat](https://img.shields.io/badge/Hashcat-374151?style=flat-square)
+![NetExec](https://img.shields.io/badge/NetExec-1a1a2e?style=flat-square)
+![AWS CLI](https://img.shields.io/badge/AWS_CLI-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![CloudGoat](https://img.shields.io/badge/CloudGoat-FF4500?style=flat-square)
+![Pacu](https://img.shields.io/badge/Pacu-CC4400?style=flat-square)
+![ScoutSuite](https://img.shields.io/badge/ScoutSuite-1E90FF?style=flat-square)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![Azure CLI](https://img.shields.io/badge/Azure_CLI-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 
 </div>
 
 ---
 
-<div align="center">
+## 🔎 Project Overview
 
-<!-- Core Badges -->
+This is a **multi-domain, hands-on security assessment lab** built from scratch to develop, practise, and document real-world penetration testing techniques across enterprise attack surfaces.
 
-![Status](https://img.shields.io/badge/Status-Active%20Portfolio%20Project-00d4aa?style=for-the-badge)
-![Type](https://img.shields.io/badge/Type-Hands--On%20Security%20Lab-ff6b6b?style=for-the-badge)
-![Level](https://img.shields.io/badge/Level-Beginner%20%E2%86%92%20Intermediate%20Practical-ffd93d?style=for-the-badge)
-![Ethics](https://img.shields.io/badge/Ethics-Authorized%20Lab%20Only-brightgreen?style=for-the-badge)
-![Cloud](https://img.shields.io/badge/Cloud-AWS%20%7C%20Azure-orange?style=for-the-badge)
+Every completed phase includes:
+- Step-by-step methodology notes
+- Evidence screenshots (sensitive values redacted)
+- Tool commands and outputs
+- Attack path analysis
+- Responsible cleanup verification
 
-<!-- Tech Stack -->
+> **All activity is performed exclusively on self-owned, intentionally vulnerable, isolated lab environments. No production systems or external infrastructure are involved.**
 
-<br/>
+---
 
-## ⚡ What Is This Project?
+## 📊 Project Status
 
-This is a **from-scratch, end-to-end enterprise penetration testing lab** simulating the exact infrastructure you'd attack in a real corporate engagement — web apps, REST/GraphQL APIs, an Active Directory domain with domain controllers and workstations, and a multi-service AWS cloud environment.
-
-Every phase is documented with **professional pentest reports**, **annotated evidence screenshots**, **custom attack scripts**, and **CVSSv3-scored findings** — structured exactly like deliverables from top-tier firms like NCC Group, Rapid7, and Bishop Fox.
-
-> **Ethical notice:** All attacks are performed exclusively against intentionally vulnerable, self-hosted lab environments. No production systems were harmed.
+| Sub-Project | Status | Evidence | Notes |
+|-------------|--------|----------|-------|
+| 🏢 AD & Internal Network | ✅ **Completed** | 10 screenshots | Full attack chain documented |
+| ☁️ AWS Cloud Security | ✅ **Completed** | 8 screenshots | CloudGoat + ScoutSuite + Pacu |
+| 🔷 Azure Security | ⚠️ **Attempted — Quota Blocked** | 3 screenshots | Documented & cleaned up |
+| 🌐 Web Application VAPT | 🔄 **In Progress** | — | Lab prepared, testing ongoing |
+| 🔌 API Security | 🔄 **In Progress** | — | Structure & methodology prepared |
+| 🟡 GCP Security | 📅 **Deferred** | — | Scheduled after AWS/Azure complete |
+| 📜 Certification Roadmap | ✅ **Documented** | — | Path defined in `/06-roadmap/` |
 
 ---
 
 ## 🗺️ Lab Architecture
 
-
-[lab Architecture](screenshots/Lab-picture.png)
-
+```
+┌──────────────────────────────────────────────────────────────────────┐
+│                   ENTERPRISE SECURITY LAB — TOPOLOGY                  │
+├────────────────────────┬─────────────────────────┬───────────────────┤
+│   INTERNAL AD NETWORK  │    WEB / API LAB         │   CLOUD TARGETS   │
+│   192.168.X.X / 24     │   Docker / Local         │   AWS  |  Azure   │
+│                        │                          │                   │
+│  ┌──────────────────┐  │  ┌────────────────────┐  │  ┌─────────────┐  │
+│  │  Kali Linux      │  │  │  DVWA              │  │  │ CloudGoat   │  │
+│  │  Attacker Box    │  │  │  WebGoat           │  │  │ IAM / S3    │  │
+│  └────────┬─────────┘  │  │  Juice Shop        │  │  │ EC2 / IMDS  │  │
+│           │            │  │  crAPI (planned)   │  │  └─────────────┘  │
+│  ┌────────▼─────────┐  │  └────────────────────┘  │  ┌─────────────┐  │
+│  │  DC01            │  │                          │  │ AzureGoat   │  │
+│  │  Windows Server  │  │                          │  │ (attempted, │  │
+│  │  corp.local      │  │                          │  │ quota block)│  │
+│  ├──────────────────┤  │                          │  └─────────────┘  │
+│  │  WS01            │  │                          │                   │
+│  │  Windows 10 Ent  │  │                          │                   │
+│  │  Domain Member   │  │                          │                   │
+│  └──────────────────┘  │                          │                   │
+└────────────────────────┴─────────────────────────┴───────────────────┘
+```
 
 ---
 
@@ -66,396 +108,480 @@ Every phase is documented with **professional pentest reports**, **annotated evi
 ```
 enterprise-security-assessment-lab/
 │
-├── 📄 README.md                        ← You are here
-├── 📄 MASTER-REPORT.pdf                ← Combined executive pentest report
-├── 📄 .gitignore                       ← Prevents credential leaks
+├── README.md
+├── .gitignore
 │
-├── 📂 01-web-vapt/
-│   ├── 📄 README.md                    ← Sub-project overview & findings table
-│   ├── 📄 setup-guide.md               ← Reproducible lab setup instructions
-│   ├── 📄 web-vapt-report.pdf          ← Professional pentest report (CVSSv3)
-│   ├── 📂 screenshots/                 ← 10+ annotated evidence screenshots
-│   ├── 📂 tool-outputs/                ← nmap, nikto, gobuster raw outputs
-│   └── 📂 scripts/
-│       └── 🐍 web_scanner.py           ← Custom Python vulnerability scanner
+├── 01-web-vapt/                  🔄 In Progress
+│   ├── README.md
+│   ├── screenshots/
+│   ├── tool-outputs/
+│   └── scripts/
 │
-├── 📂 02-api-security/
-│   ├── 📄 README.md
-│   ├── 📄 api-pentest-report.pdf
-│   ├── 📂 screenshots/
-│   ├── 📂 postman-collections/         ← Exported Postman test suites (.json)
-│   └── 📂 scripts/
-│       └── 🐍 api_security_tester.py   ← Automated OWASP API Top 10 scanner
+├── 02-api-security/              🔄 In Progress
+│   ├── README.md
+│   ├── screenshots/
+│   ├── postman-collections/
+│   └── tools/
+│       └── api_security_tester.py
 │
-├── 📂 03-ad-network/
-│   ├── 📄 README.md
-│   ├── 📄 lab-build-guide.md           ← Full AD domain build from scratch
-│   ├── 📄 attack-playbook.md           ← Step-by-step attack chain playbook
-│   ├── 📄 ad-pentest-report.pdf
-│   └── 📂 screenshots/
-│       ├── 🖼️ bloodhound-attack-path.png
-│       └── 🖼️ ...
+├── 03-ad-network/                ✅ Completed
+│   ├── README.md
+│   ├── screenshots/              ← 10 evidence screenshots
+│   ├── reports/
+│   └── notes/
 │
-└── 📂 04-cloud-security/
-    ├── 📄 README.md
-    ├── 📄 cloud-assessment-report.pdf
-    ├── 📂 screenshots/
-    └── 📂 scripts/
-        └── 🐍 cloud_enum.py            ← AWS IAM enumeration script
+├── 04-cloud-security/            ✅ Completed (AWS)
+│   ├── README.md
+│   ├── screenshots/              ← 8 evidence screenshots
+│   ├── reports/
+│   └── scripts/
+│
+├── 05-azure-security/            ⚠️ Attempted / Cleaned Up
+│   ├── README.md
+│   ├── screenshots/              ← 3 evidence screenshots
+│   └── reports/
+│
+└── 06-roadmap/
+    └── certification-roadmap.md
 ```
 
 ---
 
-## 🔴 Sub-Project 1 — Web Application VAPT
+## 🏢 Sub-Project 3 — Active Directory & Internal Network Pentest
 
-<table>
-<tr>
-<td width="50%">
+> **Status: ✅ Completed** | Platform: Kali Linux → Windows Server 2019 + Windows 10 (corp.local)
 
-### 🎯 Objectives
-- Perform full black-box web application pentest
-- Identify and exploit all OWASP Top 10 vulnerabilities
-- Chain multiple vulnerabilities for maximum impact
-- Deliver professional pentest report with CVSSv3 scoring
-
-### 🧰 Tools Used
-`Burp Suite Pro` `SQLMap` `Nmap` `Gobuster` `Nikto`
-`WFuzz` `ffuf` `Hydra` `Flameshot` `Metasploit`
-
-</td>
-<td width="50%">
-
-### 📊 Findings Summary
-
-| # | Vulnerability | Severity | CVSS |
-|---|--------------|----------|------|
-| 1 | SQL Injection (Union-based) | 🔴 Critical | 9.8 |
-| 2 | Remote Code Execution via File Upload | 🔴 Critical | 9.8 |
-| 3 | Stored Cross-Site Scripting | 🟠 High | 8.2 |
-| 4 | OS Command Injection | 🔴 Critical | 9.8 |
-| 5 | Cross-Site Request Forgery | 🟡 Medium | 6.8 |
-| 6 | Sensitive Data in URL (IDOR) | 🟠 High | 7.5 |
-| 7 | Directory Traversal | 🟠 High | 7.1 |
-| 8 | Reflected XSS | 🟡 Medium | 6.1 |
-
-</td>
-</tr>
-</table>
-
-### 🔬 Attack Methodology
-
-```
-RECONNAISSANCE          SCANNING              EXPLOITATION          POST-EXPLOITATION
-─────────────           ──────────            ────────────          ─────────────────
-WHOIS / DNS      →     Nmap (-sV -sC)  →     SQLi (Manual)  →     Hash Cracking
-Subdomain enum   →     Nikto (-h)      →     SQLMap --dbs   →     Session Hijack
-Tech fingerprint →     Gobuster dir    →     XSS payloads   →     Priv Escalation
-Wayback Machine  →     Burp Spider     →     File Upload RCE →     Persistence
-Google Dorks     →     WFuzz fuzzing   →     CSRF PoC       →     Data Exfil
-```
-
-### 💥 Key Proof of Concept — SQL Injection to Database Dump
-
-```bash
-# Step 1 — Identify injection point
-sqlmap -u "http://target/vuln.php?id=1" --dbs
-
-# Step 2 — Enumerate target database tables
-sqlmap -u "http://target/vuln.php?id=1" -D dvwa --tables
-
-# Step 3 — Dump credentials table
-sqlmap -u "http://target/vuln.php?id=1" -D dvwa -T users --dump
-
-# Step 4 — Crack extracted MD5 hashes offline
-hashcat -m 0 hashes.txt /usr/share/wordlists/rockyou.txt
-
-# Result: admin:password123 — authentication bypass achieved
-```
-
----
-
-## 🟠 Sub-Project 2 — API Security Testing
-
-<table>
-<tr>
-<td width="50%">
-
-### 🎯 Objectives
-- Test all OWASP API Security Top 10 vulnerabilities
-- Perform JWT token attacks and bypass authentication
-- Discover undocumented shadow API endpoints
-- Automate BOLA/IDOR enumeration at scale
-
-### 🧰 Tools Used
-`Postman` `ffuf` `jwt_tool` `kiterunner`
-`mitmproxy` `Burp Suite` `Python requests`
-
-</td>
-<td width="50%">
-
-### 📊 API Findings Summary
-
-| # | Vulnerability | OWASP ID | Severity |
-|---|--------------|----------|----------|
-| 1 | Broken Object Level Auth (BOLA) | API1 | 🔴 Critical |
-| 2 | Broken Authentication (JWT alg:none) | API2 | 🔴 Critical |
-| 3 | Excessive Data Exposure | API3 | 🟠 High |
-| 4 | No Rate Limiting on Auth Endpoint | API4 | 🟡 Medium |
-| 5 | Broken Function Level Authorization | API5 | 🟠 High |
-| 6 | Mass Assignment (role escalation) | API6 | 🔴 Critical |
-| 7 | Security Misconfiguration (CORS) | API7 | 🟡 Medium |
-| 8 | Hidden Admin Endpoints (no auth) | API9 | 🔴 Critical |
-
-</td>
-</tr>
-</table>
-
-### 💥 Key Proof of Concept — BOLA + JWT Manipulation
-
-```bash
-# Step 1 — Login and capture JWT
-POST /identity/api/auth/login
-{"email":"attacker@lab.com","password":"Test1234!"}
-→ Response: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."}
-
-# Step 2 — Decode JWT and inspect claims
-python3 jwt_tool.py eyJhbGciO... -d
-→ {"user_id": 5, "role": "user", "email": "attacker@lab.com"}
-
-# Step 3 — Attempt BOLA — access victim's resources with own token
-GET /workshop/api/mechanic/mechanic_report?report_id=1   ← victim's report
-Authorization: Bearer [attacker's token]
-→ HTTP 200 OK — victim's private data returned (BOLA confirmed)
-
-# Step 4 — JWT algorithm confusion (none attack)
-python3 jwt_tool.py eyJhbGciO... -X a
-→ Forged token with {"role":"admin","alg":"none"} accepted by server
-```
-
----
-
-## 🟡 Sub-Project 3 — Internal Network & Active Directory Pentest
-
-<table>
-<tr>
-<td width="50%">
-
-### 🎯 Objectives
-- Build full Windows Active Directory lab from scratch
-- Execute complete AD attack chain: Initial Access → Domain Admin
-- Visualize attack paths with BloodHound
-- Perform DCSync and credential harvesting
-
-### 🧰 Tools Used
-`Responder` `BloodHound + Neo4j` `Impacket Suite`
-`CrackMapExec` `Hashcat` `Metasploit` `Mimikatz`
-`PowerView` `SharpHound` `enum4linux`
-
-</td>
-<td width="50%">
-
-### 🏗️ Lab Environment Built
+### Lab Environment
 
 | Component | Details |
 |-----------|---------|
-| Domain Controller | Windows Server 2019, corp.local |
-| Workstation | Windows 10 Enterprise, domain-joined |
-| Attack Machine | Kali Linux 2024.1 |
-| Domain Users | 8 users (intentionally misconfigured) |
-| Vulnerabilities | LLMNR on, weak passwords, over-privileged accounts, Kerberoastable SPNs |
+| Domain | `corp.local` |
+| Domain Controller | Windows Server 2019 — DC01 |
+| Workstation | Windows 10 Enterprise — WS01 |
+| Attacker | Kali Linux |
+| Network | Isolated host-only — private lab |
+| Config | Intentionally misconfigured users & privileges for training |
 
-</td>
-</tr>
-</table>
-
-### 🔗 Full Attack Chain — Initial Foothold to Domain Compromise
+### Attack Chain — Phase by Phase
 
 ```
-PHASE 1: NETWORK RECON          PHASE 2: CREDENTIAL CAPTURE      PHASE 3: LATERAL MOVEMENT
-──────────────────────          ───────────────────────────       ──────────────────────────
-nmap -sn 192.168.56.0/24  →    Responder LLMNR Poisoning   →    CrackMapExec SMB enum
-enum4linux -a DC_IP        →    Capture NTLMv2 hash         →    Pass-the-Hash (psexec.py)
-BloodHound collection      →    Hashcat offline crack        →    Kerberoasting (GetUserSPNs)
-                                                             →    BloodHound path analysis
+Phase 1: Discovery          Phase 2: Credential Capture    Phase 3: AD Exploitation
+────────────────────        ───────────────────────────    ────────────────────────
+Nmap host discovery   →     Responder LLMNR poisoning  →   Kerberoasting (Impacket)
+SMB enumeration       →     NTLMv2 hash capture         →   Kerberoast hash cracking
+Domain enumeration    →     Hashcat offline crack        →   BloodHound collection
+enum4linux-ng         →     Credential validation (SMB) →   Attack path analysis
 
-PHASE 4: DOMAIN COMPROMISE
-──────────────────────────────
-Impacket secretsdump.py (DCSync)  →  All domain hashes extracted
-krbtgt hash obtained              →  Golden Ticket attack possible
-Domain Admin shell achieved       →  Full domain compromise ✓
+Phase 4: Privilege & Impact
+────────────────────────────────
+Pass-the-Hash → SYSTEM shell
+DCSync → domain hash extraction (lab only, values redacted)
+BloodHound domain overview graph
 ```
 
-### 💥 Key Attack — Kerberoasting + BloodHound Path
+### Evidence — Screenshots
 
-```bash
-# Step 1 — Identify Kerberoastable accounts
-GetUserSPNs.py corp.local/jsmith:Summer2024! -dc-ip 192.168.56.10 -request
+> All sensitive values (hashes, passwords, tokens) are **redacted** before publication.
 
-# Step 2 — Extract service ticket hash
-$krb5tgs$23$*svc_sql$CORP.LOCAL$MSSQLSvc/dc01.corp.local:1433*$...
-
-# Step 3 — Offline crack with Hashcat (no account lockout!)
-hashcat -m 13100 kerberoast.txt /usr/share/wordlists/rockyou.txt
-→ svc_sql:P@ssword1 cracked in 4 seconds
-
-# Step 4 — DCSync — dump all domain hashes
-secretsdump.py corp.local/Administrator@192.168.56.10 -just-dc
-→ Administrator:500:aad3b435b51404ee:[HASH_REDACTED]
-→ krbtgt:502:aad3b435b51404ee:[HASH_REDACTED]
-→ FULL DOMAIN COMPROMISE ACHIEVED
+**Responder — NTLMv2 Hash Capture**
 ```
-
-> 📸 BloodHound attack path graph showing jsmith → Domain Admins is in `03-ad-network/screenshots/bloodhound-attack-path.png`
+Technique:  LLMNR/NBT-NS poisoning via Responder
+MITRE:      T1557.001 — Adversary-in-the-Middle
+Result:     NTLMv2 hash intercepted from domain workstation
+```
+![Responder NTLMv2 Hash Captured](./03-ad-network/screenshots/10-responder-ntlmv2-hash-captured.png)
 
 ---
 
-## ☁️ Sub-Project 4 — Cloud Security Assessment
+**Hashcat — Offline NTLMv2 Crack**
+```
+Technique:  Offline password cracking (no lockout triggered)
+Tool:       Hashcat -m 5600
+Result:     Domain credential recovered from captured hash
+```
+![Hashcat NTLMv2 Cracked](./03-ad-network/screenshots/11-hashcat-ntlmv2-cracked.png)
+
+---
+
+**NetExec — SMB Enumeration & Credential Validation**
+```
+Technique:  SMB credential validation and share enumeration
+Tool:       NetExec (CrackMapExec successor)
+Result:     Credentials confirmed valid against domain services
+```
+![SMB Enumeration Credential Validation](./03-ad-network/screenshots/12-smb-enumeration-credential-validation.png)
+
+---
+
+**Kerberoasting — SPN Ticket Request**
+```
+Technique:  Kerberoasting — offline service ticket cracking
+MITRE:      T1558.003 — Steal or Forge Kerberos Tickets
+Tool:       Impacket GetUserSPNs.py
+Result:     Kerberos service ticket (TGS) extracted for offline cracking
+```
+![Kerberoasting SPN Ticket Requested](./03-ad-network/screenshots/13-kerberoasting-spn-ticket-requested.png)
+
+---
+
+**Hashcat — Kerberoast Hash Cracked**
+```
+Tool:       Hashcat -m 13100
+Result:     Service account credential recovered offline
+```
+![Kerberoast Hash Cracked](./03-ad-network/screenshots/14-kerberoast-hash-cracked.png)
+
+---
+
+**BloodHound — Attack Path to Domain Admin**
+```
+Technique:  AD attack path analysis and graph visualisation
+Tool:       BloodHound + Neo4j + BloodHound.py collection
+Result:     Shortest path to Domain Admin identified and visualised
+```
+![BloodHound Attack Path Domain Admin](./03-ad-network/screenshots/15-bloodhound-attack-path-domain-admin.png)
+
+---
+
+**BloodHound — Domain Overview Graph**
+```
+Result:  Full domain object graph: users, groups, computers, relationships
+```
+![BloodHound Domain Overview Graph](./03-ad-network/screenshots/16-bloodhound-domain-overview-graph.png)
+
+---
+
+**Pass-the-Hash — SYSTEM Shell Obtained**
+```
+Technique:  Pass-the-Hash lateral movement
+MITRE:      T1550.002 — Use Alternate Authentication Material
+Tool:       Impacket psexec.py
+Result:     SYSTEM-level shell obtained on target using NTLM hash
+```
+![Pass the Hash SYSTEM Shell Obtained](./03-ad-network/screenshots/17-pass-the-hash-system-shell-obtained.png)
+
+---
+
+**DCSync — Domain Hash Extraction (Lab Only)**
+```
+Technique:  DCSync — simulate DC replication to extract hashes
+MITRE:      T1003.006 — DCSync
+Tool:       Impacket secretsdump.py
+Scope:      Private lab only. All hash values redacted before publication.
+```
+![DCSync Domain Hashes Dumped](./03-ad-network/screenshots/18-dcsync-domain-hashes-dumped.png)
+![DCSync All Domain Hashes Dumped](./03-ad-network/screenshots/18b-dcsync-all-domain-hashes-dumped.png)
+
+---
+
+### AD Findings Summary
+
+| Technique | MITRE ID | Outcome |
+|-----------|----------|---------|
+| LLMNR/NBT-NS Poisoning | T1557.001 | NTLMv2 hash captured |
+| Offline Hash Cracking | T1110.002 | Domain credential recovered |
+| Kerberoasting | T1558.003 | Service account credential recovered |
+| BloodHound Recon | T1069.002 | Domain Admin attack path identified |
+| Pass-the-Hash | T1550.002 | SYSTEM shell on target |
+| DCSync (lab) | T1003.006 | Domain hashes extracted (redacted) |
+
+---
+
+## ☁️ Sub-Project 4 — AWS Cloud Security Assessment
+
+> **Status: ✅ Completed** | Platform: AWS Free Tier — CloudGoat, Pacu, ScoutSuite
+
+### Lab Setup & Safety
+
+- Personal AWS account — isolated lab environment
+- Root MFA enabled before any lab deployment
+- Budget and free-tier usage monitoring configured
+- CloudGoat deployed and destroyed responsibly
+- Billing and cleanup verified after completion
+
+### Attack Chain Summary
+
+```
+Phase 1: Authentication & Enumeration
+───────────────────────────────────────
+AWS CLI configured → Identity verified (aws sts get-caller-identity)
+IAM permissions enumerated → Policy documents reviewed
+Available services and resources mapped
+
+Phase 2: Exploitation Scenarios
+────────────────────────────────────────────────────────────────────
+CloudGoat scenario deployed → IAM privilege escalation via PassRole + EC2
+Pacu IAM privesc scan → viable escalation paths identified
+IAM instance profile assumed on target EC2 (CloudGoat scenario objective met)
+
+Phase 3: Misconfiguration Testing
+──────────────────────────────────────────────────────────────────────────────
+S3 unauthenticated access tested (--no-sign-request) → public bucket accessed
+EC2 IMDS endpoint accessed in lab → temporary credentials retrieved (redacted)
+ScoutSuite full AWS audit run → HTML report generated
+
+Phase 4: Cleanup & Verification
+───────────────────────────────────────────────
+CloudGoat scenarios destroyed → resources verified removed
+EC2 instances terminated → confirmed
+S3 buckets removed → no buckets remaining confirmed
+Free-tier / billing dashboard reviewed
+```
+
+### Evidence — Screenshots
+
+> Account IDs, access keys, secret keys, tokens, and IPs are **fully redacted** in all screenshots.
+
+**IAM Permissions Enumeration**
+```
+Tool:    AWS CLI — aws iam list-attached-user-policies / get-policy-version
+Result:  Current user's IAM permissions mapped before exploitation
+```
+![IAM Permissions Enumeration](./04-cloud-security/screenshots/iam-permissions-enumeration.png)
+
+---
+
+**Pacu — IAM Privilege Escalation Scan**
+```
+Tool:    Pacu — iam__privesc_scan module
+Result:  Viable IAM privilege escalation paths identified for CloudGoat user
+```
+![Pacu Privesc Scan Results](./04-cloud-security/screenshots/pacu-privesc-scan-results.png)
+
+---
+
+**S3 — Unauthenticated Public Access**
+```
+Command: aws s3 ls s3://[bucket] --no-sign-request
+Result:  CloudGoat S3 bucket accessible without credentials
+         (intentionally misconfigured lab target)
+```
+![S3 Public Bucket Unauthenticated Access](./04-cloud-security/screenshots/s3-public-bucket-unauthenticated-access.png)
+
+---
+
+**ScoutSuite — AWS Audit Report Overview**
+```
+Tool:    ScoutSuite — multi-service AWS security audit
+Result:  HTML dashboard showing findings across IAM, S3, EC2, and other services
+```
+![ScoutSuite HTML Report Overview](./04-cloud-security/screenshots/scoutsuite-html-report-overview.png)
+
+---
+
+**ScoutSuite — High Severity Finding Detail**
+```
+Result:  Specific high-severity misconfiguration finding drilled down in ScoutSuite
+```
+![ScoutSuite High Severity Finding](./04-cloud-security/screenshots/scoutsuite-specific-high-severity-finding.png)
+
+---
+
+**EC2 IMDS — Metadata Credential Exposure**
+```
+Technique:  EC2 Instance Metadata Service (IMDSv1) credential retrieval
+Context:    Accessed via vulnerable proxy path in CloudGoat lab scenario
+Result:     Temporary IAM role credentials retrieved from metadata endpoint
+Note:       All credential values fully redacted before publication
+```
+![IMDS EC2 Metadata Credentials](./04-cloud-security/screenshots/imds-ec2-metadata-credentials-stolen.png)
+
+---
+
+**CloudGoat Cleanup — EC2 Terminated & Verified**
+```
+Verification:  Target EC2 instance terminated and removed
+Tool:          AWS Console + CLI
+```
+![CloudGoat EC2 Cleanup Verified](./04-cloud-security/screenshots/13-cloudgoat-ec2-cleanup-verified.png)
+
+---
+
+**AWS Billing / Free-Tier Cleanup Check**
+```
+Verification:  No unexpected charges. Free-tier usage within limits.
+               All CloudGoat resources destroyed.
+```
+![AWS Free Tier Cleanup Check](./04-cloud-security/screenshots/14-aws-free-tier-cleanup-check.png)
+
+---
+
+### AWS Findings Summary
+
+| Finding Area | Category | Context |
+|---|---|---|
+| IAM misconfigured permissions | Privilege Escalation | CloudGoat scenario |
+| PassRole + EC2 RunInstances path | IAM Privesc | Identified by Pacu |
+| S3 public unauthenticated access | Misconfiguration | CloudGoat scenario |
+| IMDSv1 metadata credential exposure | Credential Access | CloudGoat proxy scenario |
+| IAM instance profile assumption | Privilege Escalation | CloudGoat objective met |
+| ScoutSuite high-severity findings | Audit/Misconfiguration | Full AWS service audit |
+
+---
+
+## 🔷 Sub-Project 5 — Azure Security Lab
+
+> **Status: ⚠️ Attempted — Blocked by Subscription Quota — Documented & Cleaned Up**
+
+### What Happened
+
+| Step | Outcome |
+|------|---------|
+| Azure account login | ✅ Successful |
+| Azure budget alert configured | ✅ Configured |
+| Azure Cloud Shell authenticated | ✅ Successful (Kali CLI had issues; switched to Cloud Shell) |
+| AzureGoat repository cloned | ✅ Cloned |
+| Terraform deployment initiated | ⚠️ Blocked — Azure subscription quota restrictions |
+| Quota errors encountered | App Service Plan limit + Basic Public IP limit exceeded |
+| Decision | Did not force deployment — documented as real-world quota constraint |
+| Terraform destroy executed | ✅ 14 resources destroyed |
+| Resource group `azuregoat_app` | ✅ Deleted and confirmed removed |
+| Azure Portal — AzureGoat resources | ✅ Nothing to display — clean |
+
+> This was a deliberate, responsible decision. Forcing a deployment past subscription limits risks unexpected charges and unclean environments. Recognising quota boundaries, documenting the constraint, and performing clean teardown is itself a cloud security and lab management skill.
+
+### Evidence — Screenshots
+
+**Azure CLI — Authenticated in Cloud Shell**
+```
+Result:  Azure Cloud Shell authenticated successfully after local CLI issues
+```
+![Azure CLI Authenticated](./05-azure-security/screenshots/01-azure-cli-authenticated.png)
+
+---
+
+**AzureGoat — Deployment Blocked by Subscription Quota**
+```
+Error:   App Service Plan quota + Basic Public IP quota restrictions
+Action:  Deployment halted — Terraform destroy executed immediately
+```
+![AzureGoat Deployment Blocked](./05-azure-security/screenshots/azuregoat-deployment-blocked-by-subscription-quota.png)
+
+---
+
+**AzureGoat — Cleanup Confirmed**
+```
+Command:   az group exists --name azuregoat_app → false
+Result:    Resource group deleted, no AzureGoat resources in portal
+```
+![AzureGoat Cleanup Confirmed](./05-azure-security/screenshots/06-azuregoat-cleanup-confirmed.png)
+
+### Skills Demonstrated in Azure Phase
+
+- Azure Portal and Cloud Shell navigation
+- Azure CLI authentication and troubleshooting
+- Terraform plan, apply, and destroy lifecycle
+- Azure subscription quota awareness
+- Azure Cost Management and budget alerts
+- Responsible resource teardown and cleanup verification
+
+---
+
+## 🌐 Sub-Project 1 — Web Application VAPT
+
+> **Status: 🔄 In Progress** — Lab environment prepared, testing under way
+
+### Planned Targets
+
+| Target | Type | Purpose |
+|--------|------|---------|
+| DVWA | Docker | OWASP Top 10 fundamentals |
+| WebGoat | Docker | Guided vulnerability exercises |
+| OWASP Juice Shop | Docker | Full-stack CTF-style VAPT |
+| crAPI | Docker | Combined web + API practice |
+
+### Tools Prepared
+
+`Burp Suite` `Nmap` `Gobuster` `ffuf` `Nikto` `SQLMap` `Python`
+
+> Findings, screenshots, and report will be added to `01-web-vapt/` as testing is completed and evidence captured. No findings are pre-claimed.
+
+---
+
+## 🔌 Sub-Project 2 — API Security Testing
+
+> **Status: 🔄 In Progress** — Methodology and tooling structure prepared
+
+### Testing Areas Planned
+
+- REST API authentication and authorisation testing
+- JWT token analysis and manipulation
+- OWASP API Security Top 10 coverage
+- GraphQL introspection and injection testing
+- OAuth flow testing
+- crAPI vulnerable API lab (in progress)
+- PortSwigger Web Security Academy API labs
+
+### Tools Prepared
+
+`Postman` `Burp Suite` `Python requests` `curl` `jq` `JWT analysis tools`
+
+> Findings and screenshots will be added to `02-api-security/` as evidence is captured.
+
+---
+
+## 🟡 GCP Security — Deferred
+
+> **Status: 📅 Deferred — Intentional Decision**
+
+After completing the AWS CloudGoat lab and encountering the Azure subscription quota issue, I made a deliberate decision to defer GCPGoat.
+
+**Reasons:**
+- AWS CloudGoat objective was fully completed
+- Azure lab exposed real-world quota and billing constraints
+- Running a third simultaneous cloud lab increases cost and cleanup risk
+- Billing hygiene and cleanup workflow should be validated before adding another cloud
+
+**Planned GCP path (when ready):**
+- Create isolated GCP project with billing alerts
+- Authenticate via `gcloud` CLI
+- IAM and service account enumeration
+- Cloud Storage permission review
+- Attempt GCPGoat after billing and cleanup workflow is stable
+
+---
+
+## 🛡️ Tools Arsenal
 
 <table>
+<tr><th>Category</th><th>Tools Used / Relevant</th></tr>
 <tr>
-<td width="50%">
-
-### 🎯 Objectives
-- Deploy and attack intentionally vulnerable AWS infrastructure
-- Perform IAM privilege escalation via 15+ techniques
-- Identify S3 misconfigurations and public data exposure
-- Conduct full cloud security audit with ScoutSuite/Prowler
-
-### 🧰 Tools Used
-`AWS CLI` `Pacu` `ScoutSuite` `Prowler`
-`CloudGoat` `AzureGoat` `Boto3` `enumerate-iam`
-
-</td>
-<td width="50%">
-
-### 📊 Cloud Findings Summary
-
-| # | Finding | Service | Severity |
-|---|---------|---------|----------|
-| 1 | IAM privilege escalation via PassRole | IAM | 🔴 Critical |
-| 2 | Publicly accessible S3 bucket | S3 | 🔴 Critical |
-| 3 | EC2 IMDS v1 — credential theft | EC2 | 🟠 High |
-| 4 | Overly permissive IAM policies (AdministratorAccess) | IAM | 🔴 Critical |
-| 5 | No CloudTrail logging enabled | CloudTrail | 🟠 High |
-| 6 | Security groups with 0.0.0.0/0 inbound | VPC | 🟠 High |
-| 7 | RDS instance publicly accessible | RDS | 🟠 High |
-| 8 | No MFA on root account | IAM | 🔴 Critical |
-
-</td>
-</tr>
-</table>
-
-### 💥 Key Attack — IAM Privilege Escalation to Admin
-
-```bash
-# Step 1 — Enumerate current permissions
-aws sts get-caller-identity
-aws iam list-attached-user-policies --user-name cloudgoat_user
-
-# Step 2 — Discover iam:PassRole + ec2:RunInstances (privesc vector)
-aws iam get-policy-version --policy-arn arn:aws:iam::ACCOUNT:policy/cg-policy-v --version-id v1
-→ "Action": ["iam:PassRole", "ec2:RunInstances", "ec2:DescribeInstances"]
-
-# Step 3 — Use Pacu to automate escalation
-python3 pacu.py
-Pacu> import_keys cloudgoat_user
-Pacu> run iam__privesc_scan
-→ [+] Found viable escalation: PassExistingRoleToNewEC2ThenSSH
-→ [+] Admin access achieved via EC2 instance profile
-
-# Step 4 — Verify full admin access
-aws iam list-users    # Can now enumerate all IAM users
-aws s3 ls             # Access to all S3 buckets
-aws ec2 describe-instances  # Full EC2 visibility
-```
-
----
-
-## 📊 Overall Findings Dashboard
-
-```
-╔══════════════════════════════════════════════════════════════════╗
-║              CONSOLIDATED FINDINGS ACROSS ALL 4 PROJECTS         ║
-╠══════════════════╦════════════╦════════╦══════════╦═════════════╣
-║ Project          ║  Critical  ║  High  ║  Medium  ║  Low        ║
-╠══════════════════╬════════════╬════════╬══════════╬═════════════╣
-║ Web VAPT         ║     3      ║   4    ║    3     ║    2        ║
-║ API Security     ║     4      ║   2    ║    4     ║    1        ║
-║ AD & Network     ║     4      ║   3    ║    2     ║    3        ║
-║ Cloud Security   ║     4      ║   5    ║    6     ║    2        ║
-╠══════════════════╬════════════╬════════╬══════════╬═════════════╣
-║ TOTAL            ║    15      ║  14    ║   15     ║    8        ║
-╚══════════════════╩════════════╩════════╩══════════╩═════════════╝
-
-  Critical [███████████████░░░░░░░░░░░░░░] 29%
-  High     [██████████████░░░░░░░░░░░░░░░] 27%
-  Medium   [███████████████░░░░░░░░░░░░░░] 29%
-  Low      [███████░░░░░░░░░░░░░░░░░░░░░░] 15%
-```
-
----
-
-## 🛠️ Complete Tools Arsenal
-
-<table>
-<tr><th>Category</th><th>Tools</th></tr>
-<tr>
-<td>🌐 Web Pentesting</td>
+<td>🔴 AD & Network</td>
 <td>
 
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=portswigger&logoColor=white)
-![SQLMap](https://img.shields.io/badge/SQLMap-C23B22?style=flat-square&logo=sqlite&logoColor=white)
-![Nikto](https://img.shields.io/badge/Nikto-5C4033?style=flat-square)
-![Gobuster](https://img.shields.io/badge/Gobuster-3DDC84?style=flat-square)
-![OWASP ZAP](https://img.shields.io/badge/OWASP_ZAP-3E4D6C?style=flat-square)
+`Nmap` `enum4linux-ng` `Responder` `Hashcat` `Impacket` `NetExec` `BloodHound` `Neo4j`
 
 </td>
 </tr>
 <tr>
-<td>🔌 API Security</td>
+<td>☁️ AWS Cloud</td>
 <td>
 
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![ffuf](https://img.shields.io/badge/ffuf-005571?style=flat-square)
-![jwt_tool](https://img.shields.io/badge/jwt__tool-000000?style=flat-square)
-![kiterunner](https://img.shields.io/badge/kiterunner-6e40c9?style=flat-square)
+`AWS CLI` `CloudGoat` `Pacu` `ScoutSuite` `Terraform` `curl` `jq`
 
 </td>
 </tr>
 <tr>
-<td>🏢 Active Directory</td>
+<td>🔷 Azure</td>
 <td>
 
-![BloodHound](https://img.shields.io/badge/BloodHound-DC143C?style=flat-square)
-![Impacket](https://img.shields.io/badge/Impacket-2E4057?style=flat-square&logo=python&logoColor=white)
-![Responder](https://img.shields.io/badge/Responder-8B0000?style=flat-square)
-![CrackMapExec](https://img.shields.io/badge/CrackMapExec-4A0E0E?style=flat-square)
-![Hashcat](https://img.shields.io/badge/Hashcat-374151?style=flat-square)
-![Metasploit](https://img.shields.io/badge/Metasploit-2A2A72?style=flat-square)
+`Azure Portal` `Azure Cloud Shell` `Azure CLI` `Terraform` `Azure Cost Management`
 
 </td>
 </tr>
 <tr>
-<td>☁️ Cloud Security</td>
+<td>🌐 Web (In Progress)</td>
 <td>
 
-![AWS CLI](https://img.shields.io/badge/AWS_CLI-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![Pacu](https://img.shields.io/badge/Pacu-FF4500?style=flat-square)
-![ScoutSuite](https://img.shields.io/badge/ScoutSuite-1E90FF?style=flat-square)
-![Prowler](https://img.shields.io/badge/Prowler-00CED1?style=flat-square)
-![CloudGoat](https://img.shields.io/badge/CloudGoat-FF6347?style=flat-square)
+`Burp Suite` `Nmap` `Gobuster` `ffuf` `Nikto` `SQLMap` `Python`
 
 </td>
 </tr>
 <tr>
-<td>🔍 Recon & OSINT</td>
+<td>🔌 API (In Progress)</td>
 <td>
 
-![Nmap](https://img.shields.io/badge/Nmap-0E83CD?style=flat-square)
-![Shodan](https://img.shields.io/badge/Shodan-C23B22?style=flat-square)
-![theHarvester](https://img.shields.io/badge/theHarvester-32CD32?style=flat-square)
-![Maltego](https://img.shields.io/badge/Maltego-5B2C6F?style=flat-square)
-![Recon-ng](https://img.shields.io/badge/Recon--ng-708090?style=flat-square)
+`Postman` `Burp Suite` `Python requests` `curl` `jq`
 
 </td>
 </tr>
@@ -463,173 +589,159 @@ aws ec2 describe-instances  # Full EC2 visibility
 
 ---
 
-## 📚 Methodology & Standards Followed
+## 📋 Methodology & Standards
 
-| Standard | Application |
-|----------|------------|
-| **OWASP Top 10 (2021)** | All web vulnerability identification and classification |
-| **OWASP API Security Top 10** | API assessment methodology and finding categories |
-| **PTES (Penetration Testing Execution Standard)** | Overall engagement structure and phases |
-| **NIST SP 800-115** | Technical guide for information security testing |
-| **CVSSv3.1** | All vulnerability severity scoring |
-| **MITRE ATT&CK Framework** | AD and network attack technique mapping |
-| **CIS Benchmarks** | Cloud security configuration assessment baseline |
-
----
-
-## 📜 Pentest Reports
-
-> All reports follow the professional format used by industry-leading security firms.
-
-| Report | Scope | Findings | Format |
-|--------|-------|---------|--------|
-| [📄 Web VAPT Report](./01-web-vapt/web-vapt-report.pdf) | DVWA, WebGoat, Metasploitable2 | 12 findings | PDF |
-| [📄 API Security Report](./02-api-security/api-pentest-report.pdf) | crAPI, Juice Shop | 11 findings | PDF |
-| [📄 AD & Network Report](./03-ad-network/ad-pentest-report.pdf) | corp.local domain | 12 findings | PDF |
-| [📄 Cloud Assessment Report](./04-cloud-security/cloud-assessment-report.pdf) | AWS CloudGoat, AzureGoat | 17 findings | PDF |
-| [📄 **Master Executive Report**](./MASTER-REPORT.pdf) | **All 4 projects combined** | **52 findings** | **PDF** |
+| Standard / Framework | Application |
+|---------------------|-------------|
+| OWASP Top 10 (2021) | Web vulnerability testing guidance |
+| OWASP API Security Top 10 | API testing methodology |
+| MITRE ATT&CK Enterprise | AD and network technique mapping |
+| PTES | Overall engagement structure |
+| CIS Benchmarks (AWS) | Cloud configuration assessment baseline |
+| CVSSv3.1 | Vulnerability severity scoring (when findings confirmed) |
 
 ---
 
-## 🚀 How to Reproduce This Lab
+## 📸 Evidence Matrix
 
-### Prerequisites
-
-```bash
-# Minimum system requirements
-RAM:     16 GB (for AD lab — 8 GB for web/API/cloud only)
-Storage: 200 GB free
-OS:      Host can be Windows, macOS, or Linux
-VMs:     VirtualBox 7.x or VMware Workstation Player (free)
-```
-
-### Quick Start — Web + API Lab (No VM required)
-
-```bash
-# 1. Clone this repository
-git clone https://github.com/YOUR_USERNAME/enterprise-security-assessment-lab.git
-cd enterprise-security-assessment-lab
-
-# 2. Install Docker (if not already installed)
-sudo apt update && sudo apt install docker.io docker-compose -y
-
-# 3. Deploy all vulnerable web/API targets
-docker pull vulnerables/web-dvwa          # DVWA
-docker pull webgoat/goat-and-wolf        # WebGoat
-docker pull bkimminich/juice-shop        # OWASP Juice Shop
-
-git clone https://github.com/OWASP/crAPI.git  # crAPI vulnerable API
-cd crAPI && docker-compose up -d
-
-# 4. Launch attack targets
-docker run -d -p 80:80   vulnerables/web-dvwa
-docker run -d -p 8080:8080 webgoat/goat-and-wolf
-docker run -d -p 3000:3000 bkimminich/juice-shop
-
-# Targets now live at:
-# DVWA     → http://localhost:80      (admin/password)
-# WebGoat  → http://localhost:8080    (register any account)
-# JuiceShop → http://localhost:3000   (register any account)
-# crAPI    → http://localhost:8888    (register any account)
-```
-
-### AD Lab Setup (Requires 16GB RAM)
-
-```bash
-# Download free evaluation ISOs from Microsoft Evaluation Center
-# Windows Server 2019 Evaluation → 180-day free
-# Windows 10 Enterprise Evaluation → 90-day free
-
-# After VMs are up, on Windows Server (run as Administrator):
-Install-WindowsFeature -Name AD-Domain-Services -IncludeManagementTools
-Install-ADDSForest -DomainName "corp.local" -DomainNetbiosName "CORP" `
-  -SafeModeAdministratorPassword (ConvertTo-SecureString "Password123!" -AsPlainText -Force) -Force
-```
-
-> 📖 See [03-ad-network/lab-build-guide.md](./03-ad-network/lab-build-guide.md) for the complete 30-step guide.
+| Sub-Project | Evidence Type | Count | Redaction Applied |
+|-------------|--------------|-------|-------------------|
+| AD & Network | Screenshots | 10 | Hashes, passwords, usernames |
+| AWS Cloud | Screenshots | 8 | Account IDs, keys, tokens, IPs |
+| Azure | Screenshots | 3 | Subscription IDs, tenant info |
+| Web VAPT | — | — | In progress |
+| API Security | — | — | In progress |
 
 ---
 
-## 🎓 Skills Demonstrated
+## 🔒 Redaction & Secret Handling
+
+All published screenshots and output files follow these rules:
+
+- **Hashes** (NTLMv2, Kerberoast, NTLM) — redacted or blurred before publication
+- **AWS account IDs, access keys, secret keys, session tokens** — fully redacted
+- **Azure subscription IDs, tenant IDs** — redacted
+- **Plaintext passwords** — never shown in published evidence
+- **Public IPs, internal IPs** — redacted where identifiable
+- **SAM / secretsdump output** — hash fields blurred; structure shown only
+- Tool used for redaction: Flameshot (annotate → blur) on Kali Linux
+
+---
+
+## ✅ Cleanup Verification
+
+| Lab | Cleanup Action | Verified |
+|-----|---------------|---------|
+| AD Lab | Host-only VMs, isolated network — no external exposure | ✅ |
+| AWS CloudGoat | `cloudgoat.py destroy` — EC2 terminated, S3 removed | ✅ |
+| AWS Pacu / ScoutSuite | No persistent resources created | ✅ |
+| AWS Billing | Free-tier usage checked, no unexpected charges | ✅ |
+| Azure AzureGoat | `terraform destroy` — 14 resources destroyed | ✅ |
+| Azure Resource Group | `az group exists` returned `false` | ✅ |
+| Azure Portal | No AzureGoat resources visible | ✅ |
+
+---
+
+## 🎯 Skills Demonstrated
 
 ```
-┌──────────────────────────────────────────────────────────┐
-│                  COMPETENCY MATRIX                        │
-├──────────────────────────────┬──────────────────────────┤
-│ Web Application Security     │ ████████████████████ 95%  │
-│ API Security Testing         │ ████████████████████ 90%  │
-│ Network Penetration Testing  │ ████████████████░░░░ 80%  │
-│ Active Directory Attacks     │ ███████████████████░ 85%  │
-│ Cloud Security (AWS)         │ ██████████████████░░ 80%  │
-│ Python Scripting / Automation│ █████████████████░░░ 75%  │
-│ Vulnerability Assessment     │ ████████████████████ 95%  │
-│ Pentest Report Writing       │ ████████████████████ 90%  │
-│ CVSSv3 Scoring               │ ████████████████████ 90%  │
-│ MITRE ATT&CK Mapping         │ ████████████████░░░░ 78%  │
-└──────────────────────────────┴──────────────────────────┘
+Active Directory Security
+  ├── Domain lab build from scratch (Windows Server + Win10 + Kali)
+  ├── LLMNR/NBT-NS poisoning and NTLMv2 hash capture
+  ├── Offline credential cracking (Hashcat)
+  ├── SMB enumeration and credential validation
+  ├── Kerberoasting using Impacket
+  ├── BloodHound attack path analysis and graph visualisation
+  ├── Pass-the-Hash lateral movement
+  └── DCSync domain hash extraction (private lab)
+
+AWS Cloud Security
+  ├── IAM identity and permissions enumeration
+  ├── IAM privilege escalation via PassRole + EC2 (CloudGoat)
+  ├── Pacu automated privilege escalation scanning
+  ├── S3 misconfiguration and public access testing
+  ├── EC2 IMDS credential exposure (IMDSv1)
+  ├── ScoutSuite full-account security audit
+  └── Responsible cleanup and billing verification
+
+Azure / Cloud General
+  ├── Azure CLI and Cloud Shell operation
+  ├── Terraform lifecycle management (plan → apply → destroy)
+  ├── Azure subscription quota awareness
+  ├── Azure Cost Management and budget alerts
+  └── Safe cloud lab teardown and cleanup verification
+
+General
+  ├── Pentest methodology and documentation
+  ├── Evidence screenshot capture with redaction
+  ├── MITRE ATT&CK technique mapping
+  ├── Professional report writing structure
+  └── Responsible lab management and ethics
 ```
 
 ---
 
-## 🏆 Certifications & Learning Path
+## 📜 Certification Roadmap
 
-| Status | Certification | Provider | Focus |
-|--------|--------------|----------|-------|
-| 🔄 In Progress | Jr. Penetration Tester | TryHackMe | Web + Network fundamentals |
-| 🔄 In Progress | PortSwigger Web Security | PortSwigger Academy | All 200+ web labs |
-| 📅 Planned | eJPT | eLearnSecurity | Entry-level pentest |
-| 📅 Planned | CompTIA PenTest+ | CompTIA | Pentest methodology |
-| 📅 Planned | PNPT | TCM Security | Practical pentest |
-| 📅 Planned | OSCP | Offensive Security | Gold standard (24hr exam) |
-| 📅 Planned | AWS Security Specialty | Amazon | Cloud security |
+> Full path: [`06-roadmap/certification-roadmap.md`](./06-roadmap/certification-roadmap.md)
+
+| Stage | Certification | Provider | Focus |
+|-------|--------------|----------|-------|
+| Foundation | Security+ or equivalent | CompTIA | Broad security fundamentals |
+| Entry practical | eJPT | eLearnSecurity | Beginner hands-on pentesting |
+| Intermediate | PNPT or PenTest+ | TCM Security / CompTIA | Practical pentest methodology |
+| Cloud | AWS Security Specialty or AZ-500 | AWS / Microsoft | Cloud security professional |
+| Advanced | OSCP | Offensive Security | Gold standard — 24hr practical exam |
 
 ---
 
-## 📖 References & Resources
+## 🔮 Future Improvements
 
-- [OWASP Testing Guide v4.2](https://owasp.org/www-project-web-security-testing-guide/)
-- [OWASP API Security Top 10](https://owasp.org/www-project-api-security/)
-- [MITRE ATT&CK Enterprise Matrix](https://attack.mitre.org/matrices/enterprise/)
-- [HackTricks — Active Directory Methodology](https://book.hacktricks.xyz/windows-hardening/active-directory-methodology)
-- [Rhino Security Labs — Cloud Attack Research](https://rhinosecuritylabs.com/research/)
-- [PortSwigger Web Security Academy](https://portswigger.net/web-security)
-- [TCM Security — Practical Ethical Hacking](https://academy.tcm-sec.com/)
-- [AWS Security Best Practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html)
+- [ ] Complete Web VAPT phase — DVWA + WebGoat + Juice Shop findings
+- [ ] Complete API Security phase — crAPI + PortSwigger API labs
+- [ ] Resolve Azure quota issue (upgrade tier or request quota increase) and retry AzureGoat
+- [ ] Add GCP security lab once billing and cleanup workflow validated
+- [ ] Produce formal pentest report (PDF) per sub-project
+- [ ] Add Python automation scripts for AD enumeration and cloud IAM review
+- [ ] Map all completed findings to MITRE ATT&CK Navigator layer
 
 ---
 
 ## ⚖️ Legal & Ethical Disclaimer
 
 ```
-┌─────────────────────────────────────────────────────────────────────┐
-│                        ⚠️  IMPORTANT NOTICE                         │
-│                                                                       │
-│  All penetration testing activities documented in this repository    │
-│  were performed EXCLUSIVELY on self-owned, isolated lab              │
-│  environments using intentionally vulnerable software designed        │
-│  for security education.                                              │
-│                                                                       │
-│  • DVWA, WebGoat, crAPI, Metasploitable2 — authorized targets       │
-│  • Active Directory lab — self-built on personal hardware            │
-│  • AWS CloudGoat — deployed in personal AWS account                 │
-│                                                                       │
-│  Performing these attacks against systems without explicit written    │
-│  authorization is ILLEGAL under the Computer Fraud and Abuse Act     │
-│  (CFAA), Computer Misuse Act (UK), and equivalent laws worldwide.   │
-│                                                                       │
-│  This project is for EDUCATIONAL PURPOSES ONLY.                      │
-└─────────────────────────────────────────────────────────────────────┘
+╔══════════════════════════════════════════════════════════════════════╗
+║                        IMPORTANT NOTICE                               ║
+║                                                                        ║
+║  All penetration testing, exploitation, and security testing           ║
+║  activities documented in this repository were performed              ║
+║  EXCLUSIVELY on:                                                       ║
+║                                                                        ║
+║  • Self-owned, isolated virtual lab environments                       ║
+║  • Intentionally vulnerable software (DVWA, WebGoat, CloudGoat,       ║
+║    AzureGoat, Metasploitable) designed for security education          ║
+║  • Private AWS and Azure accounts under personal control               ║
+║                                                                        ║
+║  No real-world systems, third-party infrastructure, or external        ║
+║  networks were targeted or accessed without authorisation.             ║
+║                                                                        ║
+║  Performing these techniques against systems without explicit written  ║
+║  permission is illegal under the Computer Misuse Act, CFAA, and       ║
+║  equivalent laws worldwide.                                            ║
+║                                                                        ║
+║  This project exists for EDUCATIONAL PURPOSES ONLY.                   ║
+╚══════════════════════════════════════════════════════════════════════╝
 ```
 
 ---
 
-## 📬 Contact & Connect
+## 📬 Contact
 
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_PROFILE)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-Profile-212C42?style=for-the-badge&logo=tryhackme&logoColor=red)](https://tryhackme.com/p/YOUR_USERNAME)
-[![HackTheBox](https://img.shields.io/badge/HackTheBox-Profile-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black)](https://app.hackthebox.com/profile/YOUR_ID)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_USERNAME)
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your@email.com)
 
 </div>
@@ -638,12 +750,12 @@ Install-ADDSForest -DomainName "corp.local" -DomainNetbiosName "CORP" `
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,100:0d1117&height=100&section=footer&text=&fontColor=00d4aa" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0a192f,100:112240&height=120&section=footer&text=&fontColor=64ffda" width="100%"/>
 
-*Built with purpose. Documented with precision. Executed with integrity.*
+*Built with methodology. Documented with evidence. Conducted with integrity.*
 
-![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=YOUR_USERNAME.enterprise-security-assessment-lab&color=00d4aa)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=YOUR_USERNAME.enterprise-security-assessment-lab&color=64ffda)
+&nbsp;
 ![GitHub Stars](https://img.shields.io/github/stars/YOUR_USERNAME/enterprise-security-assessment-lab?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/YOUR_USERNAME/enterprise-security-assessment-lab?style=social)
 
 </div>
