@@ -120,7 +120,7 @@ The strongest part of this lab is that every completed section is supported by r
 | ☁️ AWS Cloud Security    |                          ✅ Completed | CloudGoat, Pacu, ScoutSuite, S3 public access test, IMDS credential exposure, IAM privilege escalation, cleanup, and billing verification                            |
 | 🔵 Azure Security        | ✅ Completed as Quota-Limited Attempt | AzureGoat attempted, quota limitation documented, Terraform cleanup completed, resource group deletion verified                                                      |
 | 🟢 GCP                   |                 ✅ Deferred by Design | Deferred intentionally to avoid unnecessary billing and cleanup risk after AWS/Azure work                                                                            |
-| 🧠 Certification Roadmap |                          ✅ Completed | Learning and certification path documented                                                                                                                           |
+                                                                                                                      |
 
 ---
 
