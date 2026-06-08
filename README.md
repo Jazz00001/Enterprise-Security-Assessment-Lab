@@ -980,9 +980,9 @@ Planned improvements include:
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-YOUR_USERNAME-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/YOUR_USERNAME)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-YOUR_PROFILE-0077B5?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://linkedin.com/in/YOUR_PROFILE)
-[![Email](https://img.shields.io/badge/Email-your@email.com-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:your@email.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Jazz00001-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/YOUR_USERNAME)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-https://www.linkedin.com/in/jagriti-banerjee/-0077B5?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://linkedin.com/in/YOUR_PROFILE)
+[![Email](https://img.shields.io/badge/Email-banerjeej100@email.com-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:your@email.com)
 
 </div>
 
@@ -1015,7 +1015,7 @@ Planned improvements include:
 ### Built with discipline. Documented with evidence. Practised ethically.
 
 ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=YOUR_USERNAME.Enterprise-Security-Assessment-Lab\&color=64ffda)
-![GitHub Stars](https://img.shields.io/github/stars/YOUR_USERNAME/Enterprise-Security-Assessment-Lab?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/YOUR_USERNAME/Enterprise-Security-Assessment-Lab?style=social)
+![GitHub Stars](https://img.shields.io/github/stars/Jazz00001/Enterprise-Security-Assessment-Lab?style=social)
+
 
 </div>
