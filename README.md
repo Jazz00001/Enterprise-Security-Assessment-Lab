@@ -644,7 +644,7 @@ The AWS section demonstrates practical cloud security testing using intentionall
 
 ![Pacu Privilege Escalation Scan](04-cloud-security/screenshots/17-pacu-privesc-scan-results.png)
 
-![S3 Public Access Test](04-cloud-security/screenshots/s3-public-bucket-unauthenticated-access.png)
+![Bucket](04-cloud-security/screenshots/18-s3-public-bucket-unauthenticated-access.png)
 
 ![ScoutSuite HTML Report Overview](04-cloud-security/screenshots/scoutsuite-html-report-overview.png)
 
