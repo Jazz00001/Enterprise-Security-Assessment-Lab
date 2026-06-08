@@ -566,8 +566,6 @@ Network Discovery
 
 ![DCSync Domain Hashes Dumped](./03-ad-network/screenshots/18-dcsync-domain-hashes-dumped.png)
 
-![Full DCSync Lab Output](./03-ad-network/screenshots/18b-dcsync-all-domain-hashes-dumped.png)
-
 ---
 
 ## 🧠 AD Security Lessons
