@@ -437,30 +437,6 @@ The assessment was performed only against intentionally vulnerable or safe lab e
 
 ---
 
-## 📸 API Evidence Screenshots
-
-| Screenshot                                      | Evidence Purpose                          |
-| ----------------------------------------------- | ----------------------------------------- |
-| `00-crapi-docker-containers-running.png`        | crAPI Docker containers running           |
-| `01-crapi-homepage-browser.png`                 | crAPI homepage accessible                 |
-| `02-postman-login-jwt-token.png`                | Login request and JWT workflow in Postman |
-| `03-jwtio-decoded-token.png`                    | JWT decoded and inspected                 |
-| `04-postman-collection-structure.png`           | Postman collection structure              |
-| `05-api-tools-version-check.png`                | API testing tools verified                |
-| `05-bola-accessing-another-user-data.png`       | BOLA/IDOR-style object access test        |
-| `06-JWT-decodetoken-analysis.png`               | JWT claim/token analysis                  |
-| `06-jwt-attack-attempt-token-rejected.png`      | JWT manipulation attempt rejected         |
-| `07-excessive-data-exposure-hidden-fields.png`  | Excessive data exposure review            |
-| `08-no-rate-limiting-ffuf-running-p1.png`       | Rate-limit behaviour testing with ffuf    |
-| `08-no-rate-limiting-ffuf-running-p2.png`       | Continued ffuf/rate-limit testing         |
-| `09-mass-assignment-extra-fields-rejected.png`  | Mass assignment test rejected             |
-| `10-kiterunner-hidden-endpoints-discovered.png` | Hidden API endpoint discovery             |
-| `11-dvga-graphql-lab-running.png`               | DVGA GraphQL lab running                  |
-| `11-graphql-endpoint-alive.png`                 | GraphQL endpoint availability             |
-| `12-graphql-introspection-schema-discovery.png` | GraphQL introspection/schema discovery    |
-| `13-graphql-user-data-query-test.png`           | GraphQL user data query test              |
-| `14-oauth-lab-burp-request-analysis.png`        | OAuth request analysis in Burp            |
-
 ---
 
 ## 🖼️ API Screenshot Gallery
@@ -572,23 +548,6 @@ Network Discovery
 
 ---
 
-## 📸 AD Evidence Screenshots
-
-| Screenshot                                     | Evidence Purpose                                |
-| ---------------------------------------------- | ----------------------------------------------- |
-| `10-responder-ntlmv2-hash-captured.png`        | NTLMv2 hash capture                             |
-| `11-hashcat-ntlmv2-cracked.png`                | Captured hash cracked                           |
-| `12-smb-enumeration-credential-validation.png` | SMB credential validation                       |
-| `13-kerberoasting-spn-ticket-requested.png`    | Kerberoasting SPN ticket request                |
-| `14-kerberoast-hash-cracked.png`               | Kerberoast hash cracked                         |
-| `15-bloodhound-attack-path-domain-admin.png`   | BloodHound path to Domain Admin                 |
-| `16-bloodhound-domain-overview-graph.png`      | BloodHound domain overview                      |
-| `17-pass-the-hash-system-shell-obtained.png`   | Pass-the-Hash validation                        |
-| `18-dcsync-domain-hashes-dumped.png`           | DCSync evidence with hashes redacted            |
-| `18b-dcsync-all-domain-hashes-dumped.png`      | Full DCSync output with sensitive data redacted |
-
----
-
 ## 🖼️ AD Screenshot Gallery
 
 ![Responder NTLMv2 Hash Captured](./03-ad-network/screenshots/10-responder-ntlmv2-hash-captured.png)
@@ -680,19 +639,6 @@ The AWS section demonstrates practical cloud security testing using intentionall
 | Free-tier/billing verification                    | ✅ Completed |
 
 ---
-
-## 📸 AWS Evidence Screenshots
-
-| Screenshot                                      | Evidence Purpose                               |
-| ----------------------------------------------- | ---------------------------------------------- |
-| `iam-permissions-enumeration.png`               | IAM identity and permission enumeration        |
-| `pacu-privesc-scan-results.png`                 | Pacu privilege escalation scan                 |
-| `s3-public-bucket-unauthenticated-access.png`   | S3 unauthenticated/public access test          |
-| `scoutsuite-html-report-overview.png`           | ScoutSuite report dashboard                    |
-| `scoutsuite-specific-high-severity-finding.png` | ScoutSuite detailed finding                    |
-| `imds-ec2-metadata-credentials-stolen.png`      | IMDS credential exposure with secrets redacted |
-| `13-cloudgoat-ec2-cleanup-verified.png`         | EC2 cleanup verification                       |
-| `14-aws-free-tier-cleanup-check.png`            | Free-tier/billing cleanup verification         |
 
 ---
 
@@ -793,15 +739,6 @@ Observed issues included:
 
 The deployment was not forced. Partial resources were destroyed with Terraform, and the `azuregoat_app` resource group deletion was verified.
 
----
-
-## 📸 Azure Evidence Screenshots
-
-| Screenshot                                               | Evidence Purpose                                        |
-| -------------------------------------------------------- | ------------------------------------------------------- |
-| `01-azure-cli-authenticated.png`                         | Azure Cloud Shell / CLI authentication                  |
-| `azuregoat-deployment-blocked-by-subscription-quota.png` | AzureGoat deployment blocked by quota                   |
-| `06-azuregoat-cleanup-confirmed.png`                     | Terraform destroy and resource group deletion confirmed |
 
 ---
 
