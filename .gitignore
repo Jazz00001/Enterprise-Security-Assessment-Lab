@@ -1,44 +1,380 @@
-# OS files
-.DS_Store
-Thumbs.db
+# ============================================================
 
-# Environment files and secrets
+# .gitignore — Enterprise Security Assessment Lab
+
+# Purpose: Prevent accidental credential, token, hash, cloud key,
+
+# VM image, raw tool-output, and sensitive lab-data leaks.
+
+#
+
+# Important:
+
+# - Screenshot evidence is allowed.
+
+# - Raw secrets, hashes, tokens, Terraform state, cloud credentials,
+
+# packet captures, VM images, and private keys are blocked.
+
+# - Review every commit before pushing:
+
+# git status
+
+# git diff --cached
+
+# ============================================================
+
+# ============================================================
+
+# 🔐 1. Environment Files and General Secrets
+
+# ============================================================
+
 .env
+.env.*
 *.env
-*.key
+secrets.txt
+secret.txt
+credentials.txt
+credential.txt
+creds.txt
+passwords.txt
+password.txt
+passwd.txt
+tokens.txt
+token.txt
+api_keys.txt
+apikeys.txt
+api-key.txt
+private-notes.txt
+sensitive.txt
+
+# ============================================================
+
+# ☁️ 2. AWS / Azure / GCP Cloud Credentials
+
+# ============================================================
+
+# AWS
+
+.aws/
+aws_credentials*
+aws-credentials*
+cloudgoat-start.txt
+start.txt
+cloudgoat_start.txt
+cloudgoat-credentials.txt
+cloudgoat_credentials.txt
+
+# Azure
+
+.azure/
+azureProfile.json
+accessTokens.json
+
+# GCP
+
+.gcloud/
+application_default_credentials.json
+adc.json
+
+# Cloud CLI cached credentials
+
+*_credentials.json
+*_credential.json
+service-account-key.json
+service_account_key.json
+
+# ============================================================
+
+# 🧱 3. Terraform / IaC Sensitive Files
+
+# ============================================================
+
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# ============================================================
+
+# 🔑 4. Private Keys, Certificates, and SSH Material
+
+# ============================================================
+
 *.pem
+*.key
+*.ppk
 *.pfx
 *.p12
+*.cer
 *.crt
-credentials*
-secrets*
-passwords*
-tokens*
-api_keys*
+*.csr
+id_rsa
+id_rsa.pub
+id_dsa
+id_dsa.pub
+id_ecdsa
+id_ecdsa.pub
+id_ed25519
+id_ed25519.pub
+*_rsa
+*_rsa.pub
+*_ed25519
+*_ed25519.pub
+*.ssh
 
-# Logs
-*.log
+# ============================================================
 
-# Python
-__pycache__/
-*.pyc
-.venv/
-venv/
+# 🏢 5. Active Directory / Credential Dumping Raw Outputs
 
-# Node
-node_modules/
+# ============================================================
 
-# Temporary files
-tmp/
-temp/
+# Do not commit raw dumps or live credential material.
 
-# Security tool outputs that may contain sensitive data
-*.burp
-*.har
+# Screenshot evidence is allowed if redacted.
+
+hashes.txt
+hash.txt
+ntlm_hashes.txt
+ntlmv2_hashes.txt
+kerberoast_hashes.txt
+asrep_hashes.txt
+dcsync-raw.txt
+raw-dcsync.txt
+secretsdump.txt
+secretsdump-output.txt
+samdump.txt
+ntds.dit
+SYSTEM
+SECURITY
+SAM
+*.kirbi
+*.ccache
+*.ticket
+*.kirbi.b64
+
+# BloodHound raw collection files may expose full lab relationships.
+
+# Keep only redacted screenshots unless you intentionally sanitize data.
+
+bloodhound*.json
+*_BloodHound.zip
+BloodHound*.zip
+SharpHound*.zip
+*sharphound*.json
+neo4j-data/
+graph.db/
+
+# ============================================================
+
+# 🌐 6. Web VAPT Raw Sensitive Outputs
+
+# ============================================================
+
+# Screenshots can be committed after redaction.
+
+# Raw dumps and exploitation files should not be committed.
+
+sqlmap_output/
+.output/
+dump/
+dumps/
+loot/
+exfil/
+webshell.php
+shell.php
+cmd.php
+upload-shell.php
+reverse-shell.php
+php-reverse-shell.php
+*.sqlite
+*.sqlite3
+database-dump.sql
+db-dump.sql
+users-dump.txt
+password-dump.txt
+cracked-passwords.txt
+john.pot
+hashcat.potfile
+
+# ============================================================
+
+# 🔌 7. API Security Sensitive Files
+
+# ============================================================
+
+# Postman collections are okay only if tokens are replaced with variables.
+
+# Postman environments often contain live secrets, so they are blocked.
+
+*.postman_environment.json
+postman-environment*.json
+postman_environment*.json
+insomnia-secrets.json
+oauth-tokens.json
+jwt-token.txt
+jwt.txt
+bearer-token.txt
+refresh-token.txt
+access-token.txt
+authorization-header.txt
+
+# ============================================================
+
+# ☁️ 8. Cloud Tool Session / Report Files with Account Data
+
+# ============================================================
+
+# Pacu can store credentials/session data.
+
+.pacu/
+pacu.db
+pacu.sqlite
+pacu-session*
+pacu_sessions/
+sessions/
+
+# ScoutSuite raw reports can include account/resource identifiers.
+
+# Keep screenshots only, or sanitize reports before committing.
+
+scoutsuite-report/
+scoutsuite-results/
+ScoutSuite-results/
+scout-report/
+scout-results/
+
+# CloudGoat local state and generated files
+
+.cloudgoat/
+cloudgoat/
+CloudGoat/
+cg-*.json
+terraform.tfstate.d/
+
+# ============================================================
+
+# 📡 9. Packet Captures and Network Captures
+
+# ============================================================
+
 *.pcap
 *.pcapng
+*.cap
+*.etl
+*.har
 
-# Cloud credentials
-.aws/
-.azure/
-.gcloud/
+# ============================================================
+
+# 💻 10. VM Images, ISO Files, and Large Lab Artifacts
+
+# ============================================================
+
+*.vmdk
+*.vdi
+*.ova
+*.ovf
+*.vhd
+*.vhdx
+*.iso
+*.img
+*.qcow2
+*.raw
+
+# ============================================================
+
+# 🐍 11. Python / Virtual Environments / Build Files
+
+# ============================================================
+
+**pycache**/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+
+# ============================================================
+
+# 🧪 12. Tool Logs, Temporary Output, and Caches
+
+# ============================================================
+
+*.log
+logs/
+*_log.txt
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+temp/
+tmp/
+.cache/
+.cache/*
+history.txt
+command-history.txt
+terminal-history.txt
+
+# ============================================================
+
+# 🖥️ 13. Operating System and Editor Files
+
+# ============================================================
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# ============================================================
+
+# ✅ 14. Explicitly Allow Safe Portfolio Evidence
+
+# ============================================================
+
+# Allow redacted screenshot evidence.
+
+!01-web-vapt/screenshots/*.png
+!02-api-security/screenshots/*.png
+!03-ad-network/screenshots/*.png
+!04-cloud-security/screenshots/*.png
+!05-azure-security/screenshots/*.png
+
+# Allow Markdown documentation.
+
+!README.md
+!**/README.md
+!06-roadmap/certification-roadmap.md
+
+# Allow empty folder placeholders.
+
+!.gitkeep
+!**/.gitkeep
+
+# Allow sanitized Postman collections.
+
+!02-api-security/postman-collections/*.postman_collection.json
