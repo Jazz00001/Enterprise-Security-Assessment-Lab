@@ -742,7 +742,7 @@ The deployment was not forced. Partial resources were destroyed with Terraform, 
 
 ![Azure CLI Authenticated](04-cloud-security/screenshots/24-azure-cli-authenticated.png)
 
-![AzureGoat Cleanup Confirmed](./05-azure-security/screenshots/06-azuregoat-cleanup-confirmed.png)
+![AzureGoat Cleanup Confirmed](04-cloud-security/screenshots/25-azuregoat-cleanup-confirmed.png)
 
 ---
 
