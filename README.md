@@ -640,19 +640,19 @@ The AWS section demonstrates practical cloud security testing using intentionall
 
 ## 🖼️ AWS Screenshot Gallery
 
-![IAM Permissions Enumeration](./04-cloud-security/screenshots/iam-permissions-enumeration.png)
+![IAM Permissions Enumeration](04-cloud-security/screenshots/15-iam-permissions-enumeration.png)
 
-![Pacu Privilege Escalation Scan](./04-cloud-security/screenshots/pacu-privesc-scan-results.png)
+![Pacu Privilege Escalation Scan](04-cloud-security/screenshots/pacu-privesc-scan-results.png)
 
-![S3 Public Access Test](./04-cloud-security/screenshots/s3-public-bucket-unauthenticated-access.png)
+![S3 Public Access Test](04-cloud-security/screenshots/s3-public-bucket-unauthenticated-access.png)
 
-![ScoutSuite HTML Report Overview](./04-cloud-security/screenshots/scoutsuite-html-report-overview.png)
+![ScoutSuite HTML Report Overview](04-cloud-security/screenshots/scoutsuite-html-report-overview.png)
 
-![ScoutSuite Specific Finding](./04-cloud-security/screenshots/scoutsuite-specific-high-severity-finding.png)
+![ScoutSuite Specific Finding](04-cloud-security/screenshots/scoutsuite-specific-high-severity-finding.png)
 
-![IMDS Credential Exposure](./04-cloud-security/screenshots/imds-ec2-metadata-credentials-stolen.png)
+![IMDS Credential Exposure](04-cloud-security/screenshots/imds-ec2-metadata-credentials-stolen.png)
 
-![CloudGoat EC2 Cleanup Verified](./04-cloud-security/screenshots/13-cloudgoat-ec2-cleanup-verified.png)
+![CloudGoat EC2 Cleanup Verified](04-cloud-security/screenshots/13-cloudgoat-ec2-cleanup-verified.png)
 
 ![AWS Free Tier Cleanup Check](./04-cloud-security/screenshots/14-aws-free-tier-cleanup-check.png)
 
