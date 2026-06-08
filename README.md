@@ -648,7 +648,7 @@ The AWS section demonstrates practical cloud security testing using intentionall
 
 ![ScoutSuite Overviwe](04-cloud-security/screenshots/19-scoutsuite-html-report-overview.png)
 
-![ScoutSuite Specific Finding](04-cloud-security/screenshots/scoutsuite-specific-high-severity-finding.png)
+![ScoutSuite Specific Finding](04-cloud-security/screenshots/21-scoutsuite-specific-high-severity-finding.png)
 
 ![IMDS Credential Exposure](04-cloud-security/screenshots/imds-ec2-metadata-credentials-stolen.png)
 
