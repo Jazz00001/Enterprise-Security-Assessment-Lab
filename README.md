@@ -337,7 +337,7 @@ Environment Setup
 
 > Sensitive values such as cookies, session IDs, hashes, cracked passwords, and shell paths should be redacted before public release.
 
-![Kali Linux Lab Environment](screenshots/WebVAPT/01-kali-linux-desktop-full-screen.png)
+![Kali Linux Lab Environment](01-web-vapt/screenshots/01-kali-linux-desktop-full-screen.png)
 
 ![Docker Containers Running](./01-web-vapt/screenshots/02-docker-containers-running.png)
 
