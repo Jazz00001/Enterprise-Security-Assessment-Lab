@@ -948,7 +948,7 @@ Current documentation is maintained through Markdown, screenshot evidence, and s
 | [Project README](README.md)                           | Main project overview            |                      ✅ Completed |
 | [VAPT README](01-web-vapt/README.md)                  | Web VAPT documentation           | ✅ Completed / Evidence available |
 | [API README](02-api-security/README.md)               | API Security documentation       | ✅ Completed / Evidence available |
-| `03-ad-network/README.md`                             | Active Directory documentation   | ✅ Completed / Evidence available |
+| [AD README](03-ad-network/README.md)                  | Active Directory documentation   | ✅ Completed / Evidence available |
 | `04-cloud-security/README.md`         | Cloud Security documentation     | ✅ Completed / Evidence available |
 
 ---
