@@ -339,8 +339,6 @@ Environment Setup
 
 ![Kali Linux Lab Environment](01-web-vapt/screenshots/01-kali-linux-desktop-full-screen.png)
 
-![Docker Containers Running](01-web-vapt/screenshots/02-docker-containers-running.png)
-
 ![DVWA Login Page](./01-web-vapt/screenshots/03-dvwa-login-page-browser.png)
 
 ![Tools Version Check](./01-web-vapt/screenshots/04-tools-installed-version-check.png)
