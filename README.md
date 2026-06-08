@@ -334,48 +334,13 @@ Environment Setup
 
 ---
 
-## 📸 Web VAPT Evidence Screenshots
-
-| Screenshot                                       | Evidence Purpose                       |
-| ------------------------------------------------ | -------------------------------------- |
-| ![Kali Linux](screenshots/Web VAPT/01-kali-linux-desktop-full-screen.png)          | Kali Linux lab environment             |
-| `02-docker-containers-running.png`               | Docker vulnerable targets running      |
-| `03-dvwa-login-page-browser.png`                 | DVWA accessible in browser             |
-| `04-tools-installed-version-check.png`           | Required tools installed               |
-| `05-nmap-full-port-scan-output.png`              | Nmap full port/service scan            |
-| `06-gobuster-directory-results.png`              | Gobuster directory enumeration         |
-| `06-gobuster-directory-results(M).png`           | Additional Gobuster enumeration output |
-| `07-nikto-scan-findings.png`                     | Nikto web scan findings                |
-| `07-john-md5-hashes-cracked.png`                 | MD5 hash cracking evidence             |
-| `08-whatweb-tech-fingerprint-p1.png`             | WhatWeb fingerprinting evidence        |
-| `08-whatweb-tech-fingerprint-p2.png`             | WhatWeb fingerprinting evidence        |
-| `08-whatweb-tech-fingerprint-p3.png`             | WhatWeb fingerprinting evidence        |
-| `08-whatweb-tech-fingerprint-p4.png`             | WhatWeb fingerprinting evidence        |
-| `09-dvwa-sqli-vulnerable-input-response.png`     | Manual SQL injection validation        |
-| `09-recon-report-files-generated.png`            | Recon report files generated           |
-| `10-sqlmap-database-enumeration.png`             | SQLMap database enumeration            |
-| `11-sqlmap-users-table-dump.png`                 | SQLMap users table dump                |
-| `13-burp-intercepted-request.png`                | Burp request interception              |
-| `14-burp-repeater-modified-request-response.png` | Burp Repeater validation               |
-| `15-reflected-xss-alert-popup.png`               | Reflected XSS validation               |
-| `15-reflected-xss-alert-popup-p2.png`            | Additional reflected XSS evidence      |
-| `16-stored-xss-payload-source.png`               | Stored XSS payload/source evidence     |
-| `17-command-injection-id-whoami-output.png`      | Command injection proof                |
-| `18-file-upload-webshell-confirmed-p1.png`       | File upload webshell proof             |
-| `18-file-upload-webshell-confirmed-p2.png`       | Additional webshell confirmation       |
-| `19-csrf-forged-request-proof.png`               | CSRF forged request evidence           |
-| `Passive-Recon-p1.png`                           | Passive reconnaissance evidence        |
-| `Passive-Recon-p2.png`                           | Passive reconnaissance evidence        |
-| `Passive-Recon-p3.png`                           | Passive reconnaissance evidence        |
-| `Directory-&-File-Enumeration-with-Gobuster.png` | Directory/file enumeration summary     |
-
 ---
 
 ## 🖼️ Web Screenshot Gallery
 
 > Sensitive values such as cookies, session IDs, hashes, cracked passwords, and shell paths should be redacted before public release.
 
-![Kali Linux Lab Environment](./01-web-vapt/screenshots/01-kali-linux-desktop-full-screen.png)
+![Kali Linux Lab Environment](screenshots/Web VAPT/01-kali-linux-desktop-full-screen.png)
 
 ![Docker Containers Running](./01-web-vapt/screenshots/02-docker-containers-running.png)
 
