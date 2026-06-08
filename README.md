@@ -240,9 +240,6 @@ Enterprise-Security-Assessment-Lab/
 │   ├── README.md
 │   ├── screenshots/
 │   └── reports/
-│
-└── 06-roadmap/
-    └── certification-roadmap.md
 ```
 
 ---
