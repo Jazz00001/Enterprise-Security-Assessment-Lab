@@ -646,7 +646,7 @@ The AWS section demonstrates practical cloud security testing using intentionall
 
 ![Bucket](04-cloud-security/screenshots/18-s3-public-bucket-unauthenticated-access.png)
 
-![ScoutSuite HTML Report Overview](04-cloud-security/screenshots/scoutsuite-html-report-overview.png)
+![ScoutSuite Overviwe](04-cloud-security/screenshots/19-scoutsuite-html-report-overview.png)
 
 ![ScoutSuite Specific Finding](04-cloud-security/screenshots/scoutsuite-specific-high-severity-finding.png)
 
