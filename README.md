@@ -1065,29 +1065,8 @@ docker ps
 docker stop <container_id>
 ```
 
----
 
-# 🧠 Certification Roadmap
 
-A certification roadmap was created to guide future learning.
-
-Recommended order:
-
-```text
-Security+ or equivalent fundamentals
-→ eJPT or beginner practical pentesting
-→ PNPT-style path or PenTest+
-→ AWS Security Specialty or AZ-500
-→ OSCP later after stronger Linux, networking, web, AD, and privilege escalation skills
-```
-
-Roadmap file:
-
-```text
-06-roadmap/certification-roadmap.md
-```
-
----
 
 # 🧾 Documentation Status
 
