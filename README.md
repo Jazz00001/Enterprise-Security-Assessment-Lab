@@ -957,7 +957,6 @@ Current documentation is maintained through Markdown, screenshot evidence, and s
 | `03-ad-network/README.md`             | Active Directory documentation   | ✅ Completed / Evidence available |
 | `04-cloud-security/README.md`         | AWS Cloud Security documentation | ✅ Completed / Evidence available |
 | `05-azure-security/README.md`         | Azure Security documentation     | ✅ Completed / Evidence available |
-| `06-roadmap/certification-roadmap.md` | Certification roadmap            |                      ✅ Completed |
 
 ---
 
@@ -982,9 +981,7 @@ Planned improvements include:
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-Jazz00001-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/Jazz00001)
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Jagriti%20Banerjee-0077B5?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/jagriti-banerjee/)
-
 [![Email](https://img.shields.io/badge/Email-banerjeej100%40gmail.com-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:banerjeej100@gmail.com)
 
 </div>
