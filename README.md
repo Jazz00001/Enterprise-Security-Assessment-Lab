@@ -125,31 +125,11 @@ The strongest part of this lab is that every completed section is supported by r
 ---
 
 # 🗺️ Lab Architecture
+---
+![Lab Architecture](screenshots/Lab-picture.png)
 
-```text
-┌────────────────────────────────────────────────────────────────────────────────────┐
-│                         ENTERPRISE SECURITY ASSESSMENT LAB                         │
-├───────────────────────────────┬──────────────────────────────┬─────────────────────┤
-│        ATTACK PLATFORM         │        INTERNAL LAB           │    CLOUD SECURITY   │
-│                               │                              │                     │
-│  ┌─────────────────────────┐  │  ┌────────────────────────┐  │  ┌───────────────┐  │
-│  │ Kali Linux              │  │  │ Windows Server DC       │  │  │ AWS CloudGoat │  │
-│  │ Burp Suite              │  │  │ corp.local Domain       │  │  │ Pacu          │  │
-│  │ Nmap / Gobuster / ffuf  │  │  │ AD DS / DNS             │  │  │ ScoutSuite    │  │
-│  │ Nikto / WhatWeb         │  │  └───────────┬────────────┘  │  │ S3 / IAM      │  │
-│  │ SQLMap / John           │  │              │               │  │ EC2 / IMDS    │  │
-│  │ Impacket / Hashcat      │  │  ┌───────────▼────────────┐  │  └───────────────┘  │
-│  │ BloodHound / Neo4j      │  │  │ Windows 10 Endpoint     │  │                     │
-│  │ AWS CLI / Azure CLI     │  │  │ Domain Joined Machine   │  │  ┌───────────────┐  │
-│  └─────────────────────────┘  │  └────────────────────────┘  │  │ AzureGoat     │  │
-│                               │                              │  │ Cloud Shell   │  │
-│  Web/API Targets              │                              │  │ Terraform     │  │
-│  ├─ DVWA                      │                              │  └───────────────┘  │
-│  ├─ crAPI                     │                              │                     │
-│  ├─ DVGA / GraphQL Lab        │                              │                     │
-│  └─ OAuth Training Labs       │                              │                     │
-└───────────────────────────────┴──────────────────────────────┴─────────────────────┘
-```
+---
+
 
 # 🧰 Complete Tools Arsenal
 
