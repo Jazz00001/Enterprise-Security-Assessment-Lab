@@ -231,15 +231,12 @@ Enterprise-Security-Assessment-Lab/
 │   └── notes/
 │
 ├── 04-cloud-security/
-│   ├── README.md
-│   ├── screenshots/
-│   ├── reports/
-│   └── scripts/
-│
-├── 05-azure-security/
-│   ├── README.md
-│   ├── screenshots/
-│   └── reports/
+    ├── README.md
+    ├── screenshots/
+    ├── reports/
+    └── scripts/
+
+
 ```
 
 ---
