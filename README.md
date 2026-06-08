@@ -126,7 +126,7 @@ The strongest part of this lab is that every completed section is supported by r
 
 # 🗺️ Lab Architecture
 ---
-![Lab Architecture](screenshots/Lab-picture.png)
+![Lab Architecture](Lab.png)
 
 ---
 
