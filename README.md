@@ -151,6 +151,76 @@ The strongest part of this lab is that every completed section is supported by r
 └───────────────────────────────┴──────────────────────────────┴─────────────────────┘
 ```
 
+# 🧰 Complete Tools Arsenal
+
+<table>
+<tr>
+<th>Category</th>
+<th>Tools</th>
+</tr>
+
+<tr>
+<td>🌐 Web VAPT</td>
+<td>
+
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square\&logo=portswigger\&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-0E83CD?style=flat-square)
+![Gobuster](https://img.shields.io/badge/Gobuster-3DDC84?style=flat-square)
+![Nikto](https://img.shields.io/badge/Nikto-5C4033?style=flat-square)
+![WhatWeb](https://img.shields.io/badge/WhatWeb-8A2BE2?style=flat-square)
+![SQLMap](https://img.shields.io/badge/SQLMap-C23B22?style=flat-square)
+![John](https://img.shields.io/badge/John_the_Ripper-111111?style=flat-square)
+
+</td>
+</tr>
+
+<tr>
+<td>🔌 API Security</td>
+<td>
+
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square\&logo=postman\&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT_Analysis-000000?style=flat-square\&logo=jsonwebtokens\&logoColor=white)
+![ffuf](https://img.shields.io/badge/ffuf-005571?style=flat-square)
+![Kiterunner](https://img.shields.io/badge/Kiterunner-6e40c9?style=flat-square)
+![GraphQL](https://img.shields.io/badge/GraphQL_Testing-E10098?style=flat-square\&logo=graphql\&logoColor=white)
+![OAuth](https://img.shields.io/badge/OAuth_Testing-2b6cb0?style=flat-square)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square\&logo=portswigger\&logoColor=white)
+
+</td>
+</tr>
+
+<tr>
+<td>🏢 Active Directory</td>
+<td>
+
+![BloodHound](https://img.shields.io/badge/BloodHound-DC143C?style=flat-square)
+![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=flat-square\&logo=neo4j\&logoColor=white)
+![Impacket](https://img.shields.io/badge/Impacket-2E4057?style=flat-square\&logo=python\&logoColor=white)
+![Responder](https://img.shields.io/badge/Responder-8B0000?style=flat-square)
+![Hashcat](https://img.shields.io/badge/Hashcat-374151?style=flat-square)
+![NetExec](https://img.shields.io/badge/NetExec%2FCrackMapExec-1a1a2e?style=flat-square)
+
+</td>
+</tr>
+
+<tr>
+<td>☁️ Cloud Security</td>
+<td>
+
+![AWS CLI](https://img.shields.io/badge/AWS_CLI-FF9900?style=flat-square\&logo=amazonaws\&logoColor=white)
+![CloudGoat](https://img.shields.io/badge/CloudGoat-FF4500?style=flat-square)
+![Pacu](https://img.shields.io/badge/Pacu-CC4400?style=flat-square)
+![ScoutSuite](https://img.shields.io/badge/ScoutSuite-1E90FF?style=flat-square)
+![Azure CLI](https://img.shields.io/badge/Azure_CLI-0078D4?style=flat-square\&logo=microsoftazure\&logoColor=white)
+![Azure Cloud Shell](https://img.shields.io/badge/Azure_Cloud_Shell-0078D4?style=flat-square\&logo=microsoftazure\&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square\&logo=terraform\&logoColor=white)
+
+</td>
+</tr>
+
+</table>
+
+
 ---
 
 # 📁 Repository Structure
@@ -871,76 +941,7 @@ This is a deliberate risk-management decision, not an unfinished lab.
 
 ---
 
-# 🧰 Complete Tools Arsenal
 
-<table>
-<tr>
-<th>Category</th>
-<th>Tools</th>
-</tr>
-
-<tr>
-<td>🌐 Web VAPT</td>
-<td>
-
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square\&logo=portswigger\&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-0E83CD?style=flat-square)
-![Gobuster](https://img.shields.io/badge/Gobuster-3DDC84?style=flat-square)
-![Nikto](https://img.shields.io/badge/Nikto-5C4033?style=flat-square)
-![WhatWeb](https://img.shields.io/badge/WhatWeb-8A2BE2?style=flat-square)
-![SQLMap](https://img.shields.io/badge/SQLMap-C23B22?style=flat-square)
-![John](https://img.shields.io/badge/John_the_Ripper-111111?style=flat-square)
-
-</td>
-</tr>
-
-<tr>
-<td>🔌 API Security</td>
-<td>
-
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square\&logo=postman\&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT_Analysis-000000?style=flat-square\&logo=jsonwebtokens\&logoColor=white)
-![ffuf](https://img.shields.io/badge/ffuf-005571?style=flat-square)
-![Kiterunner](https://img.shields.io/badge/Kiterunner-6e40c9?style=flat-square)
-![GraphQL](https://img.shields.io/badge/GraphQL_Testing-E10098?style=flat-square\&logo=graphql\&logoColor=white)
-![OAuth](https://img.shields.io/badge/OAuth_Testing-2b6cb0?style=flat-square)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square\&logo=portswigger\&logoColor=white)
-
-</td>
-</tr>
-
-<tr>
-<td>🏢 Active Directory</td>
-<td>
-
-![BloodHound](https://img.shields.io/badge/BloodHound-DC143C?style=flat-square)
-![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=flat-square\&logo=neo4j\&logoColor=white)
-![Impacket](https://img.shields.io/badge/Impacket-2E4057?style=flat-square\&logo=python\&logoColor=white)
-![Responder](https://img.shields.io/badge/Responder-8B0000?style=flat-square)
-![Hashcat](https://img.shields.io/badge/Hashcat-374151?style=flat-square)
-![NetExec](https://img.shields.io/badge/NetExec%2FCrackMapExec-1a1a2e?style=flat-square)
-
-</td>
-</tr>
-
-<tr>
-<td>☁️ Cloud Security</td>
-<td>
-
-![AWS CLI](https://img.shields.io/badge/AWS_CLI-FF9900?style=flat-square\&logo=amazonaws\&logoColor=white)
-![CloudGoat](https://img.shields.io/badge/CloudGoat-FF4500?style=flat-square)
-![Pacu](https://img.shields.io/badge/Pacu-CC4400?style=flat-square)
-![ScoutSuite](https://img.shields.io/badge/ScoutSuite-1E90FF?style=flat-square)
-![Azure CLI](https://img.shields.io/badge/Azure_CLI-0078D4?style=flat-square\&logo=microsoftazure\&logoColor=white)
-![Azure Cloud Shell](https://img.shields.io/badge/Azure_Cloud_Shell-0078D4?style=flat-square\&logo=microsoftazure\&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square\&logo=terraform\&logoColor=white)
-
-</td>
-</tr>
-
-</table>
-
----
 
 # 📚 Methodology and Standards
 
