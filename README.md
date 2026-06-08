@@ -642,7 +642,7 @@ The AWS section demonstrates practical cloud security testing using intentionall
 
 ![IAM Permissions Enumeration](04-cloud-security/screenshots/15-iam-permissions-enumeration.png)
 
-![Pacu Privilege Escalation Scan](04-cloud-security/screenshots/pacu-privesc-scan-results.png)
+![Pacu Privilege Escalation Scan](04-cloud-security/screenshots/17-pacu-privesc-scan-results.png)
 
 ![S3 Public Access Test](04-cloud-security/screenshots/s3-public-bucket-unauthenticated-access.png)
 
