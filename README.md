@@ -338,7 +338,7 @@ Environment Setup
 
 | Screenshot                                       | Evidence Purpose                       |
 | ------------------------------------------------ | -------------------------------------- |
-| `![Kali Linux](screenshots/Web VAPT/01-kali-linux-desktop-full-screen.png)`          | Kali Linux lab environment             |
+| ![Kali Linux](screenshots/Web VAPT/01-kali-linux-desktop-full-screen.png)          | Kali Linux lab environment             |
 | `02-docker-containers-running.png`               | Docker vulnerable targets running      |
 | `03-dvwa-login-page-browser.png`                 | DVWA accessible in browser             |
 | `04-tools-installed-version-check.png`           | Required tools installed               |
