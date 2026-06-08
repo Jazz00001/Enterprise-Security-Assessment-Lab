@@ -650,7 +650,7 @@ The AWS section demonstrates practical cloud security testing using intentionall
 
 ![ScoutSuite Specific Finding](04-cloud-security/screenshots/21-scoutsuite-specific-high-severity-finding.png)
 
-![IMDS Credential Exposure](04-cloud-security/screenshots/imds-ec2-metadata-credentials-stolen.png)
+![IMDS](04-cloud-security/screenshots/22-imds-ec2-metadata-credentials-stolen.png)
 
 ![CloudGoat EC2 Cleanup Verified](04-cloud-security/screenshots/13-cloudgoat-ec2-cleanup-verified.png)
 
