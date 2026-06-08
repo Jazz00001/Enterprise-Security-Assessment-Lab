@@ -740,9 +740,7 @@ The deployment was not forced. Partial resources were destroyed with Terraform, 
 
 ## 🖼️ Azure Screenshot Gallery
 
-![Azure CLI Authenticated](./05-azure-security/screenshots/01-azure-cli-authenticated.png)
-
-![AzureGoat Deployment Blocked by Quota](./05-azure-security/screenshots/azuregoat-deployment-blocked-by-subscription-quota.png)
+![Azure CLI Authenticated](04-cloud-security/screenshots/24-azure-cli-authenticated.png)
 
 ![AzureGoat Cleanup Confirmed](./05-azure-security/screenshots/06-azuregoat-cleanup-confirmed.png)
 
