@@ -169,10 +169,10 @@ This table reflects the categories tested and evidenced in this lab. It does not
 
 ## 🧪 Evidence-Based Testing Summary
 
-| Test Area                     | Evidence File                                    | Result Type                    |
-| ----------------------------- | ------------------------------------------------ | ------------------------------ |
-| Kali environment              | `01-kali-linux-desktop-full-screen.png`          | Lab setup proof                |
-| Docker target deployment      | `02-docker-containers-running.png`               | Target running proof           |
+| Test Area                     | Evidence File                                    | Result Type                                                                  |
+| ----------------------------- | ------------------------------------------------ | ---------------------------------------------------------------------------- |
+| Kali environment              | [Kali](./reports/evidence/01-kali-linux-desktop-full-screen-evidence-documentation.pdf)          | Lab setup proof              |
+| Docker target deployment      | [Docker](./reports/evidence/02-docker-containers-running-evidence-documentation.pdf)               | Target running proof       |
 | DVWA browser access           | `03-dvwa-login-page-browser.png`                 | Application availability proof |
 | Tool readiness                | `04-tools-installed-version-check.png`           | Tools installed                |
 | Nmap scanning                 | `05-nmap-full-port-scan-output.png`              | Service discovery              |
