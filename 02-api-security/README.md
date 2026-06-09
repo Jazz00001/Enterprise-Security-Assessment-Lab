@@ -235,6 +235,7 @@ API requests were organized in Postman, and hidden or undocumented endpoints wer
 ```
 
 **API Discovery and Mapping** 
+
 [Open Report](./reports/methodology/02-api-discovery-and-mapping-methodology-report.pdf)
 
 ---
@@ -276,7 +277,7 @@ JWT inspection was performed using JWT.io and local decoding methods.
 JWT authentication flow was captured and analyzed. Token values were redacted before publication.
 ```
 
-**Authentication and JWT Analysis **
+**Authentication and JWT Analysis**
 
 [Open Report](./reports/methodology/03-authentication-and-jwt-analysis-methodology-report.pdf)
 
@@ -325,7 +326,7 @@ Implement server-side object ownership checks for every object access request.
 Never trust client-supplied IDs without validating ownership against the authenticated user.
 ```
 
-**BOLA / IDOR Authorization Testing **
+**BOLA / IDOR Authorization Testing**
 
 [Open Report](./reports/methodology/04-bola-idor-authorization-testing-methodology-report.pdf)
 
@@ -378,7 +379,7 @@ Return only fields required by the frontend.
 Use response DTOs or serializers to prevent accidental exposure of internal model fields.
 ```
 
-**Excessive Data Exposure Testing **
+**Excessive Data Exposure Testing**
 
 [Open Report](./reports/methodology/05-excessive-data-exposure-testing-methodology-report.pdf)
 
@@ -422,7 +423,7 @@ This should be described as rate-limit behaviour testing unless the screenshot c
 Implement rate limiting, account lockout controls, IP throttling, and monitoring for repeated failed requests.
 ```
 
-**Rate-Limit Behaviour Testing **
+**Rate-Limit Behaviour Testing**
 
 [Open Report](./reports/methodology/06-rate-limit-behaviour-testing-methodology-report.pdf)
 
@@ -472,7 +473,7 @@ Use explicit allowlists for accepted request fields.
 Never bind client JSON directly to sensitive server-side model attributes.
 ```
 
-**Mass Assignment Testing **
+**Mass Assignment Testing**
 
 [Open Report](./reports/methodology/07-mass-assignment-testing-methodology-report.pdf)
 
@@ -515,7 +516,7 @@ Remove deprecated endpoints.
 Require authentication and authorization checks on every endpoint.
 ```
 
-**Hidden Endpoint Discovery **
+**Hidden Endpoint Discovery**
 
 [Open Report](./reports/methodology/08-hidden-endpoint-discovery-methodology-report.pdf)
 
@@ -538,7 +539,7 @@ GET /graphql
 11-graphql-endpoint-alive.png
 ```
 
-**GraphQL Testing **
+**GraphQL Testing**
 
 [Open Report](./reports/methodology/09-graphql-testing-methodology-report.pdf)
 
@@ -673,7 +674,7 @@ Never expose client secrets in frontend code.
 Protect authorization codes and tokens.
 ```
 
-**OAuth Request Analysis **
+**OAuth Request Analysis**
 
 [Open Report](./reports/methodology/10-oauth-request-analysis-methodology-report.pdf)
 
