@@ -64,8 +64,9 @@
 
 ---
 ---
-Web VAPT Document
-[VAPT Document](01-web-vapt/reports/Web-VAPT-Report-Enterprise-Security-Assessment-Lab.pdf)
+## 📄 Web VAPT Document
+
+[Web VAPT Report](./reports/Web-VAPT-Report-Enterprise-Security-Assessment-Lab.pdf)
 ---
 ---
 
