@@ -245,7 +245,7 @@ installed.png
 ```text
 Kali Linux environment, Docker lab target, DVWA browser access, and tool readiness were confirmed.
 ```
-# 📄 Lab Setup and Tool Verification Document
+ 📄 **Lab Setup and Tool Verification Document**
 
 [📄 Lab Setup and Tool Verification](./reports/01-web-vapt-lab-setup-and-tool-verification.pdf)
 
