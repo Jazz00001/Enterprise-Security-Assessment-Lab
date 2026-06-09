@@ -63,11 +63,10 @@
 * [✅ Completion Status](#-completion-status)
 
 ---
----
-## 📄 Web VAPT Document
 
+## 📄 Web VAPT Document
 [Web VAPT Report](./reports/Web-VAPT-Report-Enterprise-Security-Assessment-Lab.pdf)
----
+
 ---
 
 ## 📋 Engagement Summary
