@@ -742,7 +742,7 @@ Validate Origin and Referer headers where appropriate.
 
 ## 📸 Evidence Screenshots
 
-| #  | Screenshot                                       | Description                          |
+| #  | Screenshot Name                                  | Description                          |
 | -- | ------------------------------------------------ | ------------------------------------ |
 | 01 | `01-kali-linux-desktop-full-screen.png`          | Kali Linux lab environment           |
 | 02 | `02-docker-containers-running.png`               | Docker vulnerable containers running |
@@ -783,8 +783,6 @@ Validate Origin and Referer headers where appropriate.
 > Sensitive values should be redacted before public release. This includes cookies, session IDs, password hashes, cracked passwords, database dumps, shell paths, and webshell names.
 
 ![Kali Linux Desktop](./screenshots/01-kali-linux-desktop-full-screen.png)
-
-![Docker Containers Running](./screenshots/02-docker-containers-running.png)
 
 ![DVWA Login Page](./screenshots/03-dvwa-login-page-browser.png)
 
