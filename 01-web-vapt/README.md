@@ -245,7 +245,7 @@ installed.png
 ```text
 Kali Linux environment, Docker lab target, DVWA browser access, and tool readiness were confirmed.
 ```
-## 📄 Lab Setup and Tool Verification Document
+# 📄 Lab Setup and Tool Verification Document
 
 [📄 Lab Setup and Tool Verification](./reports/01-web-vapt-lab-setup-and-tool-verification.pdf)
 
@@ -286,7 +286,7 @@ Passive-Recon-p3.png
 ```text
 Reconnaissance identified exposed web services and application technology details for further testing.
 ```
-## 📄 Passive and Active Reconnaissance Document
+ 📄 Passive and Active Reconnaissance Document
 
 [📄 Passive and Active Reconnaissance](./reports/02-web-vapt-passive-active-reconnaissance.pdf)
 
