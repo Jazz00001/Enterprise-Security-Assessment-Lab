@@ -765,47 +765,97 @@ Kali Linux Desktop
 ![Kali Linux Desktop](./screenshots/01-kali-linux-desktop-full-screen.png)
 ---
 
+DVWA
+---
 ![DVWA Login Page](./screenshots/03-dvwa-login-page-browser.png)
+---
 
+Tools Installation
+---
 ![Tools Installed Version Check](./screenshots/04-tools-installed-version-check.png)
+---
 
+Nmap
+---
 ![Nmap Full Port Scan](./screenshots/05-nmap-full-port-scan-output.png)
+---
 
+Gobuster
+---
 ![Gobuster Directory Results](./screenshots/06-gobuster-directory-results.png)
+---
 
+Nikto
+---
 ![Nikto Scan Findings](./screenshots/07-nikto-scan-findings.png)
+---
 
+Hashes Cracked
+---
 ![John MD5 Hashes Cracked](./screenshots/07-john-md5-hashes-cracked.png)
+---
 
+WHatWeb
+---
 ![WhatWeb Technology Fingerprint](./screenshots/08-whatweb-tech-fingerprint-p1.png)
+---
 
+DVWA SQL Injection
+---
 ![DVWA SQL Injection Validation](./screenshots/09-dvwa-sqli-vulnerable-input-response.png)
+---
 
+SQLMap Database Enumeration
+---
 ![SQLMap Database Enumeration](./screenshots/10-sqlmap-database-enumeration.png)
+---
 
+SQLMap Users Table Dump
+---
 ![SQLMap Users Table Dump](./screenshots/11-sqlmap-users-table-dump.png)
+---
 
+Burp Intercepted Request
+---
 ![Burp Intercepted Request](./screenshots/13-burp-intercepted-request.png)
+---
 
+Burp Repeater Modified Request Response
+---
 ![Burp Repeater Modified Request Response](./screenshots/14-burp-repeater-modified-request-response.png)
+---
 
+Reflected XSS Alert
+---
 ![Reflected XSS Alert](./screenshots/15-reflected-xss-alert-popup.png)
+---
 
+Stored XSS Payload Source
+---
 ![Stored XSS Payload Source](./screenshots/16-stored-xss-payload-source.png)
+---
 
+Command Injection id whoami Output
+---
 ![Command Injection id whoami Output](./screenshots/17-command-injection-id-whoami-output.png)
+---
 
+File Upload Webshell Confirmed
+---
 ![File Upload Webshell Confirmed](./screenshots/18-file-upload-webshell-confirmed-p1.png)
+---
 
+CSRF Forged Request Proof
+---
 ![CSRF Forged Request Proof](./screenshots/19-csrf-forged-request-proof.png)
-
+---
 ---
 
 ## 📊 Confirmed Lab Findings Table
 
 This table is based only on the evidence currently available in this folder.
 
-| #  | Finding / Test Case                    | Severity Style                              | Evidence                                     | Status             |
+| #  | Finding / Test Case                    | Severity Style                              | Evidence Screenshot Names                                    | Status             |
 | -- | -------------------------------------- | ------------------------------------------- | -------------------------------------------- | ------------------ |
 | 1  | SQL Injection                          | 🔴 Critical in real-world context           | `09-dvwa-sqli-vulnerable-input-response.png` | ✅ Validated in lab |
 | 2  | SQLMap Database Enumeration            | 🔴 Critical in real-world context           | `10-sqlmap-database-enumeration.png`         | ✅ Validated in lab |
