@@ -359,7 +359,8 @@ Nikto and WhatWeb provided scan findings and technology fingerprinting evidence.
 ---
 ---
 ## 📄 Vulnerability Scanning and Fingerprinting Document
-[📄 Vulnerability Scanning and Fingerprinting](./reports/04-web-vapt-vulnerability-scanning-fingerprinting.pdf)
+
+[📄Vulnerability Scanning and Fingerprinting](./reports/04-web-vapt-vulnerability-scanning-fingerprinting.pdf)
 ---
 ---
 
@@ -390,7 +391,12 @@ Burp Suite was used to capture and modify requests for manual validation.
 ```text
 Session cookies and PHPSESSID values should be redacted before public release.
 ```
+---
+---
+## 📄 Burp Suite Manual Request Analysis Document
+[📄 Burp Suite Manual Request Analysis](./reports/05-web-vapt-burp-suite-manual-request-analysis.pdf)
 
+---
 ---
 
 ### Phase 6 — SQL Injection Validation
@@ -431,7 +437,13 @@ Avoid concatenating user-controlled input into SQL queries.
 Validate input server-side.
 Use least-privileged database accounts.
 ```
+---
+---
+## 📄 SQL Injection Manual Validation Document
 
+[📄 SQL Injection Manual Validation](./reports/06-web-vapt-sql-injection-manual-validation.pdf)
+
+---
 ---
 
 ### Phase 7 — SQLMap Database Enumeration
@@ -471,7 +483,13 @@ SQLMap was used to enumerate database information in the authorized DVWA lab.
 ```text
 Database dumps, usernames, password hashes, and cracked passwords must be redacted before public release.
 ```
+---
+---
+## 📄 SQLMap Database Enumeration Document
 
+[📄 SQLMap Database Enumeration](./reports/07-web-vapt-sqlmap-database-enumeration.pdf)
+
+---
 ---
 
 ### Phase 8 — Hash Cracking
@@ -510,7 +528,13 @@ Use salts.
 Enforce strong password policy.
 Protect databases from injection and unauthorized access.
 ```
+---
+---
+## 📄 SQLMap Database Enumeration Document
 
+[📄 Hash Cracking with John the Ripper](./reports/08-web-vapt-hash-cracking-john.pdf)
+
+---
 ---
 
 ### Phase 9 — Cross-Site Scripting Testing
@@ -567,7 +591,13 @@ Use Content Security Policy.
 Avoid rendering raw user-controlled input.
 Validate and encode input server-side and client-side.
 ```
+---
+---
+## 📄 Cross-Site Scripting: Reflected and Stored Document
 
+[📄 Cross-Site Scripting: Reflected and Stored](./reports/09-web-vapt-cross-site-scripting-reflected-stored.pdf)
+
+---
 ---
 
 ### Phase 10 — Command Injection Testing
@@ -610,7 +640,13 @@ Apply strict allowlists.
 Escape arguments safely where command execution is unavoidable.
 Run services with least privilege.
 ```
+---
+---
+## 📄 Command Injection Document
 
+[📄 Command Injection](./reports/10-web-vapt-command-injection.pdf)
+
+---
 ---
 
 ### Phase 11 — File Upload / Webshell Validation
@@ -654,7 +690,13 @@ Store uploads outside the web root.
 Disable script execution in upload directories.
 Scan uploaded files.
 ```
+---
+---
+## 📄 File Upload and Webshell Validation Document
 
+[📄 File Upload and Webshell Validation](./reports/11-web-vapt-file-upload-webshell-validation.pdf)
+
+---
 ---
 
 ### Phase 12 — CSRF Testing
@@ -689,7 +731,13 @@ Set SameSite cookie attributes.
 Require re-authentication for sensitive actions.
 Validate Origin and Referer headers where appropriate.
 ```
+---
+---
+## 📄 File Upload and Webshell Validation Document
 
+[📄 CSRF Forged Request Testing](./reports/12-web-vapt-csrf-forged-request-testing.pdf)
+
+---
 ---
 
 ## 📸 Evidence Screenshots
