@@ -194,7 +194,7 @@ This table reflects the categories tested and evidenced in this lab. It does not
 | File Upload                   | [File Upload Webshell Confirmed P1 Evidence Report](./reports/evidence/24-file-upload-webshell-confirmed-p1-evidence-documentation.pdf)       | Webshell/upload validation     |
 | File Upload additional        | [File Upload Webshell Confirmed P2 Evidence Report](./reports/evidence/25-file-upload-webshell-confirmed-p2-evidence-documentation.pdf)       | Webshell/upload validation     |
 | CSRF                          | [CSRF Forged Request Proof Evidence Report](./reports/evidence/26-csrf-forged-request-proof-evidence-documentation.pdf)               | Forged request proof           |
-| Passive Recon                 | [Passive Recon P1 Evidence Report](./reports/evidence/27-pas                           | Recon evidence                 |
+| Passive Recon                 | [Passive Recon P1 Evidence Report](./reports/evidence/27-passive-recon-p1-evidence-documentation.pdf)                           | Recon evidence                 |
 | Passive Recon                 | [Passive Recon P2 Evidence Report](./reports/evidence/28-passive-recon-p2-evidence-documentation.pdf)                           | Recon evidence                 |
 | Passive Recon                 | [Passive Recon P3 Evidence Report](./reports/evidence/29-passive-recon-p3-evidence-documentation.pdf)                           | Recon evidence                 |
 | Directory Enumeration Summary | [Directory and File Enumeration with Gobuster Evidence Report](./reports/evidence/30-directory-and-file-enumeration-with-gobuster-evidence-documentation.pdf) | Enumeration summary            |
