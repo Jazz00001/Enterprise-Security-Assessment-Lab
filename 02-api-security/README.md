@@ -200,6 +200,10 @@ http://127.0.0.1:8888
 crAPI lab environment was deployed successfully and accessed through the browser.
 ```
 
+**API Lab Deployment**
+
+[Open Report](./reports/methodology/01-api-lab-deployment-methodology-report.pdf)
+
 ---
 
 ### Phase 2 — API Discovery and Mapping
@@ -230,7 +234,11 @@ Postman was used to organize discovered requests and maintain a repeatable testi
 API requests were organized in Postman, and hidden or undocumented endpoints were discovered using Kiterunner.
 ```
 
+**API Discovery and Mapping** 
+[Open Report](./reports/methodology/02-api-discovery-and-mapping-methodology-report.pdf)
+
 ---
+
 
 ### Phase 3 — Authentication and JWT Analysis
 
@@ -267,6 +275,10 @@ JWT inspection was performed using JWT.io and local decoding methods.
 ```text
 JWT authentication flow was captured and analyzed. Token values were redacted before publication.
 ```
+
+**Authentication and JWT Analysis **
+
+[Open Report](./reports/methodology/03-authentication-and-jwt-analysis-methodology-report.pdf)
 
 ---
 
@@ -312,6 +324,10 @@ If present in production, this issue could allow authenticated users to access o
 Implement server-side object ownership checks for every object access request.
 Never trust client-supplied IDs without validating ownership against the authenticated user.
 ```
+
+**BOLA / IDOR Authorization Testing **
+
+[Open Report](./reports/methodology/04-bola-idor-authorization-testing-methodology-report.pdf)
 
 ---
 
@@ -362,6 +378,10 @@ Return only fields required by the frontend.
 Use response DTOs or serializers to prevent accidental exposure of internal model fields.
 ```
 
+**Excessive Data Exposure Testing **
+
+[Open Report](./reports/methodology/05-excessive-data-exposure-testing-methodology-report.pdf)
+
 ---
 
 ### Phase 6 — Rate-Limit Behaviour Testing
@@ -401,6 +421,10 @@ This should be described as rate-limit behaviour testing unless the screenshot c
 ```text
 Implement rate limiting, account lockout controls, IP throttling, and monitoring for repeated failed requests.
 ```
+
+**Rate-Limit Behaviour Testing **
+
+[Open Report](./reports/methodology/06-rate-limit-behaviour-testing-methodology-report.pdf)
 
 ---
 
@@ -448,6 +472,10 @@ Use explicit allowlists for accepted request fields.
 Never bind client JSON directly to sensitive server-side model attributes.
 ```
 
+**Mass Assignment Testing **
+
+[Open Report](./reports/methodology/07-mass-assignment-testing-methodology-report.pdf)
+
 ---
 
 ### Phase 8 — Hidden Endpoint Discovery
@@ -487,6 +515,10 @@ Remove deprecated endpoints.
 Require authentication and authorization checks on every endpoint.
 ```
 
+**Hidden Endpoint Discovery **
+
+[Open Report](./reports/methodology/08-hidden-endpoint-discovery-methodology-report.pdf)
+
 ---
 
 ### Phase 9 — GraphQL Testing
@@ -505,6 +537,11 @@ GET /graphql
 11-dvga-graphql-lab-running.png
 11-graphql-endpoint-alive.png
 ```
+
+**GraphQL Testing **
+
+[Open Report](./reports/methodology/09-graphql-testing-methodology-report.pdf)
+
 
 ---
 
@@ -636,11 +673,15 @@ Never expose client secrets in frontend code.
 Protect authorization codes and tokens.
 ```
 
+**OAuth Request Analysis **
+
+[Open Report](./reports/methodology/10-oauth-request-analysis-methodology-report.pdf)
+
 ---
 
 ## 📸 Evidence Screenshots
 
-| #  | Screenshot                                      | Description                            |
+| #  | Screenshot Name                                 | Description                            |
 | -- | ----------------------------------------------- | -------------------------------------- |
 | 00 | `00-crapi-docker-containers-running.png`        | crAPI containers running               |
 | 01 | `01-crapi-homepage-browser.png`                 | crAPI homepage accessible              |
@@ -668,44 +709,100 @@ Protect authorization codes and tokens.
 
 > All sensitive values must be redacted before public upload. This includes JWTs, bearer tokens, cookies, emails, user IDs, OAuth codes, client secrets, access tokens, and refresh tokens.
 
+crAPI Docker Containers Running
+---
 ![crAPI Docker Containers Running](./screenshots/00-crapi-docker-containers-running.png)
+---
 
+crAPI Homepage Browser
+---
 ![crAPI Homepage Browser](./screenshots/01-crapi-homepage-browser.png)
+---
 
+Postman Login JWT Token
+---
 ![Postman Login JWT Token](./screenshots/02-postman-login-jwt-token.png)
+---
 
+JWT.io Decoded Token
+---
 ![JWT.io Decoded Token](./screenshots/03-jwtio-decoded-token.png)
+---
 
+Postman Collection Structure
+---
 ![Postman Collection Structure](./screenshots/04-postman-collection-structure.png)
+---
 
+API Tools Version Check
+---
 ![API Tools Version Check](./screenshots/05-api-tools-version-check.png)
+---
 
+BOLA Accessing Another User Data
+---
 ![BOLA Accessing Another User Data](./screenshots/05-bola-accessing-another-user-data.png)
+---
 
+JWT Decode Token Analysis
+---
 ![JWT Decode Token Analysis](./screenshots/06-JWT-decodetoken-analysis.png)
+---
 
+JWT Attack Attempt Token Rejected
+---
 ![JWT Attack Attempt Token Rejected](./screenshots/06-jwt-attack-attempt-token-rejected.png)
+---
 
+Excessive Data Exposure Hidden Fields
+---
 ![Excessive Data Exposure Hidden Fields](./screenshots/07-excessive-data-exposure-hidden-fields.png)
+---
 
+No Rate Limiting ffuf Running Part 1
+---
 ![No Rate Limiting ffuf Running Part 1](./screenshots/08-no-rate-limiting-ffuf-running-p1.png)
+---
 
+No Rate Limiting ffuf Running Part 2
+---
 ![No Rate Limiting ffuf Running Part 2](./screenshots/08-no-rate-limiting-ffuf-running-p2.png)
+---
 
+Mass Assignment Extra Fields Rejected
+---
 ![Mass Assignment Extra Fields Rejected](./screenshots/09-mass-assignment-extra-fields-rejected.png)
+---
 
+Kiterunner Hidden Endpoints Discovered
+---
 ![Kiterunner Hidden Endpoints Discovered](./screenshots/10-kiterunner-hidden-endpoints-discovered.png)
+---
 
+DVGA GraphQL Lab Running
+---
 ![DVGA GraphQL Lab Running](./screenshots/11-dvga-graphql-lab-running.png)
+---
 
+GraphQL Endpoint Alive
+---
 ![GraphQL Endpoint Alive](./screenshots/11-graphql-endpoint-alive.png)
+---
 
+GraphQL Introspection Schema Discovery
+---
 ![GraphQL Introspection Schema Discovery](./screenshots/12-graphql-introspection-schema-discovery.png)
+---
 
+GraphQL User Data Query Test
+---
 ![GraphQL User Data Query Test](./screenshots/13-graphql-user-data-query-test.png)
+---
 
+OAuth Lab Burp Request Analysis
+----
 ![OAuth Lab Burp Request Analysis](./screenshots/14-oauth-lab-burp-request-analysis.png)
-
+---
 ---
 
 ## 🧠 Key Security Lessons
