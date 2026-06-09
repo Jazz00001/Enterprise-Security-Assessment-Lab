@@ -341,39 +341,83 @@ Kali Linux Set Up
 ---
 ![Kali Linux Lab Environment](01-web-vapt/screenshots/01-kali-linux-desktop-full-screen.png)
 ---
+---
 DVWA Login Page
 ---
 ![DVWA Login Page](./01-web-vapt/screenshots/03-dvwa-login-page-browser.png)
 ---
-
+---
+Tools
+---
 ![Tools Version Check](./01-web-vapt/screenshots/04-tools-installed-version-check.png)
-
+---
+---
+Nmap Full Port Scan
+---
 ![Nmap Full Port Scan](./01-web-vapt/screenshots/05-nmap-full-port-scan-output.png)
-
+---
+---
+Gobuster Directory Results
+---
 ![Gobuster Directory Results](./01-web-vapt/screenshots/06-gobuster-directory-results.png)
-
+---
+---
+Nikto Scan
+---
 ![Nikto Scan Findings](./01-web-vapt/screenshots/07-nikto-scan-findings.png)
-
+---
+---
+Whatweb Tchnology 
+---
 ![WhatWeb Technology Fingerprinting](./01-web-vapt/screenshots/08-whatweb-tech-fingerprint-p1.png)
-
+---
+---
+DVWA SQL Injection
+---
 ![DVWA SQL Injection Validation](./01-web-vapt/screenshots/09-dvwa-sqli-vulnerable-input-response.png)
-
+---
+---
+SQLMap Database Enumeration
+---
 ![SQLMap Database Enumeration](./01-web-vapt/screenshots/10-sqlmap-database-enumeration.png)
-
+---
+---
+SQLMap User Table Dump
 ![SQLMap Users Table Dump](./01-web-vapt/screenshots/11-sqlmap-users-table-dump.png)
-
+---
+---
+BUrp Interception
+---
 ![Burp Intercepted Request](./01-web-vapt/screenshots/13-burp-intercepted-request.png)
-
+---
+---
+Burp Repeayer
+---
 ![Burp Repeater Modified Request](./01-web-vapt/screenshots/14-burp-repeater-modified-request-response.png)
-
+---
+---
+XSS Alert
+---
 ![Reflected XSS Alert](./01-web-vapt/screenshots/15-reflected-xss-alert-popup.png)
-
+---
+---
+XSS Payload
+---
 ![Stored XSS Payload Source](./01-web-vapt/screenshots/16-stored-xss-payload-source.png)
-
+---
+---
+Command Injection
+---
 ![Command Injection Output](./01-web-vapt/screenshots/17-command-injection-id-whoami-output.png)
-
+---
+---
+Webshell Confirmation
+---
 ![File Upload Webshell Confirmed](./01-web-vapt/screenshots/18-file-upload-webshell-confirmed-p1.png)
-
+---
+---
+CSRF
+---
 ![CSRF Forged Request Proof](./01-web-vapt/screenshots/19-csrf-forged-request-proof.png)
 
 ---
