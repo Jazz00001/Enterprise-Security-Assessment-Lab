@@ -175,33 +175,30 @@ This table reflects the categories tested and evidenced in this lab. It does not
 | Docker target deployment      | [Docker Container Evidence Report](./reports/evidence/02-docker-containers-running-evidence-documentation.pdf)               | Target running proof       |
 | DVWA browser access           | [DVWA Login Page Browser Evidence Report](./reports/evidence/03-dvwa-login-page-browser-evidence-documentation.pdf)                 | Application availability proof |
 | Tool readiness                | [Tools Installed Version Check Evidence Report](./reports/evidence/04-tools-installed-version-check-evidence-documentation.pdf)           | Tools installed                |
-| Nmap scanning                 | `05-nmap-full-port-scan-output.png`              | Service discovery              |
-| Gobuster enumeration          | `06-gobuster-directory-results.png`              | Directory discovery            |
-| Gobuster additional output    | `06-gobuster-directory-results(M).png`           | Enumeration evidence           |
-| Nikto scanning                | `07-nikto-scan-findings.png`                     | Vulnerability scan output      |
-| John cracking                 | `07-john-md5-hashes-cracked.png`                 | Hash cracking evidence         |
-| WhatWeb fingerprinting        | `08-whatweb-tech-fingerprint-p1.png`             | Technology fingerprinting      |
-| WhatWeb fingerprinting        | `08-whatweb-tech-fingerprint-p2.png`             | Technology fingerprinting      |
-| WhatWeb fingerprinting        | `08-whatweb-tech-fingerprint-p3.png`             | Technology fingerprinting      |
-| WhatWeb fingerprinting        | `08-whatweb-tech-fingerprint-p4.png`             | Technology fingerprinting      |
-| SQL Injection                 | `09-dvwa-sqli-vulnerable-input-response.png`     | Manual SQLi validation         |
-| Recon reports                 | `09-recon-report-files-generated.png`            | Report/output generation       |
-| SQLMap enumeration            | `10-sqlmap-database-enumeration.png`             | Database enumeration           |
-| SQLMap dump                   | `11-sqlmap-users-table-dump.png`                 | Users table dump               |
-| Burp interception             | `13-burp-intercepted-request.png`                | Request capture                |
-| Burp Repeater                 | `14-burp-repeater-modified-request-response.png` | Manual request modification    |
-| Reflected XSS                 | `15-reflected-xss-alert-popup.png`               | XSS validation                 |
-| Reflected XSS additional      | `15-reflected-xss-alert-popup-p2.png`            | XSS validation                 |
-| Stored XSS                    | `16-stored-xss-payload-source.png`               | Stored payload evidence        |
-| Command Injection             | `17-command-injection-id-whoami-output.png`      | OS command execution proof     |
-| File Upload                   | `18-file-upload-webshell-confirmed-p1.png`       | Webshell/upload validation     |
-| File Upload additional        | `18-file-upload-webshell-confirmed-p2.png`       | Webshell/upload validation     |
-| CSRF                          | `19-csrf-forged-request-proof.png`               | Forged request proof           |
-| Passive Recon                 | `Passive-Recon-p1.png`                           | Recon evidence                 |
-| Passive Recon                 | `Passive-Recon-p2.png`                           | Recon evidence                 |
-| Passive Recon                 | `Passive-Recon-p3.png`                           | Recon evidence                 |
-| Directory Enumeration Summary | `Directory-&-File-Enumeration-with-Gobuster.png` | Enumeration summary            |
-| Tools / Install               | `installed.png`                                  | Setup evidence                 |
+| Nmap scanning                 | [Nmap Full Port Scan Output Evidence Report](./reports/evidence/05-nmap-full-port-scan-output-evidence-documentation.pdf)              | Service discovery              |
+| Gobuster enumeration          | [Gobuster Directory Results Evidence Report](./reports/evidence/06-gobuster-directory-results-evidence-documentation.pdf)              | Directory discovery            |
+| Gobuster additional output    | [Gobuster Directory Results Additional Evidence Report](./reports/evidence/07-gobuster-directory-results-m-evidence-documentation.pdf)           | Enumeration evidence           |
+| Nikto scanning                | [Nikto Scan Findings Evidence Report](./reports/evidence/08-nikto-scan-findings-evidence-documentation.pdf)                     | Vulnerability scan output      |
+| John cracking                 | [John MD5 Hashes Cracked Evidence Report](./reports/evidence/09-john-md5-hashes-cracked-evidence-documentation.pdf)                 | Hash cracking evidence         |
+| WhatWeb fingerprinting        | [WhatWeb Technology Fingerprint Evidence Report](./reports/evidence/10-whatweb-tech-fingerprint-p1-evidence-documentation.pdf)             | Technology fingerprinting      |
+| SQL Injection                 | [DVWA SQL Injection Vulnerable Input Response Evidence Report](./reports/evidence/14-dvwa-sqli-vulnerable-input-response-evidence-documentation.pdf)     | Manual SQLi validation         |
+| Recon reports                 | [Recon Report Files Generated Evidence Report](./reports/evidence/15-recon-report-files-generated-evidence-documentation.pdf)            | Report/output generation       |
+| SQLMap enumeration            | [SQLMap Database Enumeration Evidence Report](./reports/evidence/16-sqlmap-database-enumeration-evidence-documentation.pdf)             | Database enumeration           |
+| SQLMap dump                   | [SQLMap Users Table Dump Evidence Report](./reports/evidence/17-sqlmap-users-table-dump-evidence-documentation.pdf)                 | Users table dump               |
+| Burp interception             | [Burp Intercepted Request Evidence Report](./reports/evidence/18-burp-intercepted-request-evidence-documentation.pdf)                | Request capture                |
+| Burp Repeater                 | [Burp Repeater Modified Request Response Evidence Report](./reports/evidence/19-burp-repeater-modified-request-response-evidence-documentation.pdf) | Manual request modification    |
+| Reflected XSS                 | [Reflected XSS Alert Popup Evidence Report](./reports/evidence/20-reflected-xss-alert-popup-evidence-documentation.pdf)               | XSS validation                 |
+| Reflected XSS additional      | [Reflected XSS Alert Popup P2 Evidence Report](./reports/evidence/21-reflected-xss-alert-popup-p2-evidence-documentation.pdf)            | XSS validation                 |
+| Stored XSS                    | [Stored XSS Payload Source Evidence Report](./reports/evidence/22-stored-xss-payload-source-evidence-documentation.pdf)               | Stored payload evidence        |
+| Command Injection             | [Command Injection ID Whoami Output Evidence Report](./reports/evidence/23-command-injection-id-whoami-output-evidence-documentation.pdf)      | OS command execution proof     |
+| File Upload                   | [File Upload Webshell Confirmed P1 Evidence Report](./reports/evidence/24-file-upload-webshell-confirmed-p1-evidence-documentation.pdf)       | Webshell/upload validation     |
+| File Upload additional        | [File Upload Webshell Confirmed P2 Evidence Report](./reports/evidence/25-file-upload-webshell-confirmed-p2-evidence-documentation.pdf)       | Webshell/upload validation     |
+| CSRF                          | [CSRF Forged Request Proof Evidence Report](./reports/evidence/26-csrf-forged-request-proof-evidence-documentation.pdf)               | Forged request proof           |
+| Passive Recon                 | [Passive Recon P1 Evidence Report](./reports/evidence/27-pas                           | Recon evidence                 |
+| Passive Recon                 | [Passive Recon P2 Evidence Report](./reports/evidence/28-passive-recon-p2-evidence-documentation.pdf)                           | Recon evidence                 |
+| Passive Recon                 | [Passive Recon P3 Evidence Report](./reports/evidence/29-passive-recon-p3-evidence-documentation.pdf)                           | Recon evidence                 |
+| Directory Enumeration Summary | [Directory and File Enumeration with Gobuster Evidence Report](./reports/evidence/30-directory-and-file-enumeration-with-gobuster-evidence-documentation.pdf) | Enumeration summary            |
+| Tools / Install               | [Installed Evidence Documentation Report](./reports/evidence/31-installed-evidence-documentation.pdf)                                  | Setup evidence                 |
 
 ---
 
