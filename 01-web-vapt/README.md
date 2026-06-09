@@ -939,47 +939,6 @@ If tool output is uploaded, replace sensitive values with placeholders:
 
 ---
 
-## 📂 Files in This Folder
-
-```text
-01-web-vapt/
-├── README.md
-├── screenshots/
-│   ├── 01-kali-linux-desktop-full-screen.png
-│   ├── 02-docker-containers-running.png
-│   ├── 03-dvwa-login-page-browser.png
-│   ├── 04-tools-installed-version-check.png
-│   ├── 05-nmap-full-port-scan-output.png
-│   ├── 06-gobuster-directory-results.png
-│   ├── 06-gobuster-directory-results(M).png
-│   ├── 07-john-md5-hashes-cracked.png
-│   ├── 07-nikto-scan-findings.png
-│   ├── 08-whatweb-tech-fingerprint-p1.png
-│   ├── 08-whatweb-tech-fingerprint-p2.png
-│   ├── 08-whatweb-tech-fingerprint-p3.png
-│   ├── 08-whatweb-tech-fingerprint-p4.png
-│   ├── 09-dvwa-sqli-vulnerable-input-response.png
-│   ├── 09-recon-report-files-generated.png
-│   ├── 10-sqlmap-database-enumeration.png
-│   ├── 11-sqlmap-users-table-dump.png
-│   ├── 13-burp-intercepted-request.png
-│   ├── 14-burp-repeater-modified-request-response.png
-│   ├── 15-reflected-xss-alert-popup.png
-│   ├── 15-reflected-xss-alert-popup-p2.png
-│   ├── 16-stored-xss-payload-source.png
-│   ├── 17-command-injection-id-whoami-output.png
-│   ├── 18-file-upload-webshell-confirmed-p1.png
-│   ├── 18-file-upload-webshell-confirmed-p2.png
-│   ├── 19-csrf-forged-request-proof.png
-│   ├── Directory-&-File-Enumeration-with-Gobuster.png
-│   ├── Passive-Recon-p1.png
-│   ├── Passive-Recon-p2.png
-│   ├── Passive-Recon-p3.png
-│   └── installed.png
-├── tool-outputs/
-└── scripts/
-```
-
 ---
 
 ## ✅ Completion Status
