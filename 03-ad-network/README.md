@@ -212,20 +212,23 @@ corp.local
 
 ---
 
+
 ## 🧪 Evidence-Based Testing Summary
 
-| Test Area                        | Evidence File                                  | Result Type                                           |
-| -------------------------------- | ---------------------------------------------- | ----------------------------------------------------- |
-| Responder NTLMv2 capture         | `10-responder-ntlmv2-hash-captured.png`        | Credential material captured in lab                   |
-| Hashcat NTLMv2 cracking          | `11-hashcat-ntlmv2-cracked.png`                | Captured hash cracked                                 |
-| SMB credential validation        | `12-smb-enumeration-credential-validation.png` | Credentials validated                                 |
-| Kerberoasting SPN ticket request | `13-kerberoasting-spn-ticket-requested.png`    | Kerberoastable ticket requested                       |
-| Kerberoast hash cracking         | `14-kerberoast-hash-cracked.png`               | Service account hash cracked                          |
-| BloodHound attack path           | `15-bloodhound-attack-path-domain-admin.png`   | Attack path visualized                                |
-| BloodHound domain graph          | `16-bloodhound-domain-overview-graph.png`      | Domain relationships mapped                           |
-| Pass-the-Hash validation         | `17-pass-the-hash-system-shell-obtained.png`   | PTH access validated                                  |
-| DCSync limited output            | `18-dcsync-domain-hashes-dumped.png`           | Domain hash dump evidence                             |
-| DCSync full output               | `18b-dcsync-all-domain-hashes-dumped.png`      | Full lab DCSync output with sensitive values redacted |
+| Test Area | Evidence File | Result Type |
+|---|---|---|
+| Responder NTLMv2 capture | [Open Report](./reports/evidence/01-responder-ntlmv2-capture-evidence-report.pdf) | Credential material captured in lab |
+| Hashcat NTLMv2 cracking | [Open Report](./reports/evidence/02-hashcat-ntlmv2-cracking-evidence-report.pdf) | Captured hash cracked |
+| SMB credential validation | [Open Report](./reports/evidence/03-smb-credential-validation-evidence-report.pdf) | Credentials validated |
+| Kerberoasting SPN ticket request | [Open Report](./reports/evidence/04-kerberoasting-spn-ticket-request-evidence-report.pdf) | Kerberoastable ticket requested |
+| Kerberoast hash cracking | [Open Report](./reports/evidence/05-kerberoast-hash-cracking-evidence-report.pdf) | Service account hash cracked |
+| BloodHound attack path | [Open Report](./reports/evidence/06-bloodhound-attack-path-evidence-report.pdf) | Attack path visualized |
+| BloodHound domain graph | [Open Report](./reports/evidence/07-bloodhound-domain-graph-evidence-report.pdf) | Domain relationships mapped |
+| Pass-the-Hash validation | [Open Report](./reports/evidence/08-pass-the-hash-validation-evidence-report.pdf) | PTH access validated |
+| DCSync limited output | [Open Report](./reports/evidence/09-dcsync-limited-output-evidence-report.pdf) | Domain hash dump evidence |
+| DCSync full output | [Open Report](./reports/evidence/10-dcsync-full-output-evidence-report.pdf) | Full lab DCSync output with sensitive values redacted |
+
+
 
 ---
 
