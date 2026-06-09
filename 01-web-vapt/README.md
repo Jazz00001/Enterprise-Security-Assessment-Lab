@@ -760,7 +760,10 @@ Validate Origin and Referer headers where appropriate.
 
 > Sensitive values should be redacted before public release. This includes cookies, session IDs, password hashes, cracked passwords, database dumps, shell paths, and webshell names.
 
+Kali Linux Desktop
+---
 ![Kali Linux Desktop](./screenshots/01-kali-linux-desktop-full-screen.png)
+---
 
 ![DVWA Login Page](./screenshots/03-dvwa-login-page-browser.png)
 
