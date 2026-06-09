@@ -490,38 +490,87 @@ The assessment was performed only against intentionally vulnerable or safe lab e
 
 > JWTs, authorization headers, cookies, emails, user IDs, access tokens, refresh tokens, and client secrets should be redacted before public release.
 
+crAPI Docker Containers
+---
 ![crAPI Docker Containers Running](./02-api-security/screenshots/00-crapi-docker-containers-running.png)
-
+---
+---
+crAPI Homepage
+---
 ![crAPI Homepage](./02-api-security/screenshots/01-crapi-homepage-browser.png)
-
+---
+---
+Postman
+---
 ![Postman Login JWT Token](./02-api-security/screenshots/02-postman-login-jwt-token.png)
-
+---
+---
+JWT Decoded Token
+---
 ![JWT Decoded Token](./02-api-security/screenshots/03-jwtio-decoded-token.png)
-
+---
+---
+Postman
+---
 ![Postman Collection Structure](./02-api-security/screenshots/04-postman-collection-structure.png)
-
+---
+---
+API Tools
+---
 ![API Tools Version Check](./02-api-security/screenshots/05-api-tools-version-check.png)
-
+---
+---
+BOLA
+---
 ![BOLA Object Access Test](./02-api-security/screenshots/05-bola-accessing-another-user-data.png)
-
+---
+---
+JWT Decoded Token Analysis
+---
 ![JWT Decode Token Analysis](./02-api-security/screenshots/06-JWT-decodetoken-analysis.png)
-
+---
+---
+JWT Attack Attempt Rejection
+---
 ![JWT Attack Attempt Rejected](./02-api-security/screenshots/06-jwt-attack-attempt-token-rejected.png)
-
+---
+---
+Excessive Data Exposure Review
+---
 ![Excessive Data Exposure Review](./02-api-security/screenshots/07-excessive-data-exposure-hidden-fields.png)
-
+---
+---
+Rate Limit Testing with ffuf
+---
 ![Rate Limit Testing with ffuf](./02-api-security/screenshots/08-no-rate-limiting-ffuf-running-p1.png)
-
+---
+---
+Kiterunner Hidden Endpoints
 ![Kiterunner Hidden Endpoints](./02-api-security/screenshots/10-kiterunner-hidden-endpoints-discovered.png)
-
+---
+---
+DVGA GraphQL Lab Running
+---
 ![DVGA GraphQL Lab Running](./02-api-security/screenshots/11-dvga-graphql-lab-running.png)
-
+---
+---
+GraphQL Endpoint Alive
+---
 ![GraphQL Endpoint Alive](./02-api-security/screenshots/11-graphql-endpoint-alive.png)
-
+---
+---
+GraphQL Introspection Schema Discovery
+---
 ![GraphQL Introspection Schema Discovery](./02-api-security/screenshots/12-graphql-introspection-schema-discovery.png)
-
+---
+---
+GraphQL User Data Query Test
+---
 ![GraphQL User Data Query Test](./02-api-security/screenshots/13-graphql-user-data-query-test.png)
-
+---
+---
+OAuth Request Analysis
+---
 ![OAuth Request Analysis](./02-api-security/screenshots/14-oauth-lab-burp-request-analysis.png)
 
 ---
@@ -596,23 +645,48 @@ Network Discovery
 ---
 
 ## 🖼️ AD Screenshot Gallery
-
+Responder NTLMv2 Hash Captured
+---
 ![Responder NTLMv2 Hash Captured](./03-ad-network/screenshots/10-responder-ntlmv2-hash-captured.png)
-
+---
+---
+Hashcat NTLMv2 Cracked
+---
 ![Hashcat NTLMv2 Cracked](./03-ad-network/screenshots/11-hashcat-ntlmv2-cracked.png)
-
+---
+---
+SMB Enumeration Credential Validation
+---
 ![SMB Enumeration Credential Validation](./03-ad-network/screenshots/12-smb-enumeration-credential-validation.png)
-
+---
+---
+Kerberoasting SPN Ticket Requested
+---
 ![Kerberoasting SPN Ticket Requested](./03-ad-network/screenshots/13-kerberoasting-spn-ticket-requested.png)
-
+---
+---
+Kerberoast Hash Cracked
+---
 ![Kerberoast Hash Cracked](./03-ad-network/screenshots/14-kerberoast-hash-cracked.png)
-
+---
+---
+BloodHound Attack Path
+---
 ![BloodHound Attack Path](./03-ad-network/screenshots/15-bloodhound-attack-path-domain-admin.png)
-
+---
+---
+BloodHound Domain Overview Graph
+---
 ![BloodHound Domain Overview Graph](./03-ad-network/screenshots/16-bloodhound-domain-overview-graph.png)
-
+---
+---
+Pass-the-Hash SYSTEM Shell
+---
 ![Pass-the-Hash SYSTEM Shell](./03-ad-network/screenshots/17-pass-the-hash-system-shell-obtained.png)
-
+---
+---
+DCSync Domain Hashes Dumped
+---
 ![DCSync Domain Hashes Dumped](./03-ad-network/screenshots/18-dcsync-domain-hashes-dumped.png)
 
 ---
@@ -689,20 +763,42 @@ The AWS section demonstrates practical cloud security testing using intentionall
 
 ## 🖼️ AWS Screenshot Gallery
 
+IAM Permissions Enumeration
+---
 ![IAM Permissions Enumeration](04-cloud-security/screenshots/15-iam-permissions-enumeration.png)
-
+---
+Pacu Privilege Escalation Scan
+---
 ![Pacu Privilege Escalation Scan](04-cloud-security/screenshots/17-pacu-privesc-scan-results.png)
-
+---
+---
+Bucket
+---
 ![Bucket](04-cloud-security/screenshots/18-s3-public-bucket-unauthenticated-access.png)
-
+---
+---
+ScoutSuite Overviwe
+---
 ![ScoutSuite Overviwe](04-cloud-security/screenshots/19-scoutsuite-html-report-overview.png)
-
+---
+---
+ScoutSuite Specific Finding
+---
 ![ScoutSuite Specific Finding](04-cloud-security/screenshots/21-scoutsuite-specific-high-severity-finding.png)
-
+---
+----
+IMDS
+---
 ![IMDS](04-cloud-security/screenshots/22-imds-ec2-metadata-credentials-stolen.png)
-
+---
+---
+CloudGoat EC2 Cleanup Verified
+---
 ![CloudGoat EC2 Cleanup Verified](04-cloud-security/screenshots/13-cloudgoat-ec2-cleanup-verified.png)
-
+---
+---
+AWS Free Tier Cleanup Check
+---
 ![AWS Free Tier Cleanup Check](./04-cloud-security/screenshots/14-aws-free-tier-cleanup-check.png)
 
 ---
@@ -789,8 +885,13 @@ The deployment was not forced. Partial resources were destroyed with Terraform, 
 
 ## 🖼️ Azure Screenshot Gallery
 
+Azure CLI Authenticated
+---
 ![Azure CLI Authenticated](04-cloud-security/screenshots/24-azure-cli-authenticated.png)
-
+---
+---
+AzureGoat Cleanup Confirmed
+---
 ![AzureGoat Cleanup Confirmed](04-cloud-security/screenshots/25-azuregoat-cleanup-confirmed.png)
 
 ---
