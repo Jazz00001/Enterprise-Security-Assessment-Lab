@@ -171,10 +171,10 @@ This table reflects the categories tested and evidenced in this lab. It does not
 
 | Test Area                     | Evidence File                                    | Result Type                                                                  |
 | ----------------------------- | ------------------------------------------------ | ---------------------------------------------------------------------------- |
-| Kali environment              | [Kali Evidence report](./reports/evidence/01-kali-linux-desktop-full-screen-evidence-documentation.pdf)          | Lab setup proof              |
-| Docker target deployment      | [Docker](./reports/evidence/02-docker-containers-running-evidence-documentation.pdf)               | Target running proof       |
-| DVWA browser access           | `03-dvwa-login-page-browser.png`                 | Application availability proof |
-| Tool readiness                | `04-tools-installed-version-check.png`           | Tools installed                |
+| Kali environment              | [Kali Evidence Report](./reports/evidence/01-kali-linux-desktop-full-screen-evidence-documentation.pdf)          | Lab setup proof              |
+| Docker target deployment      | [Docker Container Evidence Report](./reports/evidence/02-docker-containers-running-evidence-documentation.pdf)               | Target running proof       |
+| DVWA browser access           | [DVWA Login Page Browser Evidence Report](./reports/evidence/03-dvwa-login-page-browser-evidence-documentation.pdf)                 | Application availability proof |
+| Tool readiness                | [Tools Installed Version Check Evidence Report](./reports/evidence/04-tools-installed-version-check-evidence-documentation.pdf)           | Tools installed                |
 | Nmap scanning                 | `05-nmap-full-port-scan-output.png`              | Service discovery              |
 | Gobuster enumeration          | `06-gobuster-directory-results.png`              | Directory discovery            |
 | Gobuster additional output    | `06-gobuster-directory-results(M).png`           | Enumeration evidence           |
