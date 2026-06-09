@@ -320,6 +320,7 @@ Directory and file enumeration identified accessible application paths for manua
 ```
 
  📄 **Directory and File Enumeration Document**
+ 
 [📄 Directory and File Enumeration](./reports/03-web-vapt-directory-file-enumeration.pdf)
 
 ---
@@ -385,6 +386,7 @@ Session cookies and PHPSESSID values should be redacted before public release.
 ```
 
 📄 **Burp Suite Manual Request Analysis Document**
+
 [📄 Burp Suite Manual Request Analysis](./reports/05-web-vapt-burp-suite-manual-request-analysis.pdf)
 
 ---
