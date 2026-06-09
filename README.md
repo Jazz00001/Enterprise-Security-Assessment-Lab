@@ -337,9 +337,14 @@ Environment Setup
 
 > Sensitive values such as cookies, session IDs, hashes, cracked passwords, and shell paths should be redacted before public release.
 
+Kali Linux Set Up
+---
 ![Kali Linux Lab Environment](01-web-vapt/screenshots/01-kali-linux-desktop-full-screen.png)
-
+---
+DVWA Login Page
+---
 ![DVWA Login Page](./01-web-vapt/screenshots/03-dvwa-login-page-browser.png)
+---
 
 ![Tools Version Check](./01-web-vapt/screenshots/04-tools-installed-version-check.png)
 
