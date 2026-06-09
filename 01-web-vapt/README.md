@@ -65,7 +65,7 @@
 ---
 ---
 Web VAPT Document
-Web VAPT Individual PDF Index | [Open PDF](./reports/individual-attack-section-pdfs/00_web_vapt_individual_pdf_index.pdf)
+[VAPT Document](01-web-vapt/reports/Web_VAPT_Report_Enterprise_Security_Assessment_Lab.pdf)
 ---
 ---
 
