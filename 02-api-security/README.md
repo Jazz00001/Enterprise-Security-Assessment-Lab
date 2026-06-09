@@ -142,31 +142,32 @@ This table reflects **what was tested and evidenced**, not exaggerated vulnerabi
 | API9  | Improper Inventory Management                   |    ✅   | Hidden / undocumented endpoint discovery             | Endpoints discovered                 |
 | API10 | Unsafe Consumption of APIs                      |    ⚪   | Not deeply tested in this phase                      | Not claimed                          |
 
+
 ---
 
 ## 🧪 Evidence-Based Testing Summary
 
-| Test Area                      | Evidence File                                   | Result Type                         |
-| ------------------------------ | ----------------------------------------------- | ----------------------------------- |
-| crAPI containers running       | `00-crapi-docker-containers-running.png`        | Lab deployment proof                |
-| crAPI homepage accessible      | `01-crapi-homepage-browser.png`                 | Target availability proof           |
-| Postman login + JWT            | `02-postman-login-jwt-token.png`                | Auth workflow captured              |
-| JWT decoded in jwt.io          | `03-jwtio-decoded-token.png`                    | Token analysis                      |
-| Postman collection structure   | `04-postman-collection-structure.png`           | Testing workflow                    |
-| API tools version check        | `05-api-tools-version-check.png`                | Tool readiness                      |
-| BOLA / IDOR test               | `05-bola-accessing-another-user-data.png`       | Vulnerable behaviour observed       |
-| JWT claim review               | `06-JWT-decodetoken-analysis.png`               | Token claim analysis                |
-| JWT attack attempt             | `06-jwt-attack-attempt-token-rejected.png`      | Attack rejected / control validated |
-| Excessive data exposure        | `07-excessive-data-exposure-hidden-fields.png`  | Data exposure review                |
-| Rate-limit behaviour           | `08-no-rate-limiting-ffuf-running-p1.png`       | ffuf testing evidence               |
-| Rate-limit behaviour continued | `08-no-rate-limiting-ffuf-running-p2.png`       | ffuf testing evidence               |
-| Mass assignment                | `09-mass-assignment-extra-fields-rejected.png`  | Attack rejected / control validated |
-| Hidden endpoints               | `10-kiterunner-hidden-endpoints-discovered.png` | Endpoint discovery                  |
-| DVGA GraphQL lab               | `11-dvga-graphql-lab-running.png`               | GraphQL lab proof                   |
-| GraphQL endpoint alive         | `11-graphql-endpoint-alive.png`                 | Endpoint availability               |
-| GraphQL introspection          | `12-graphql-introspection-schema-discovery.png` | Schema discovery                    |
-| GraphQL data query             | `13-graphql-user-data-query-test.png`           | Query testing                       |
-| OAuth request analysis         | `14-oauth-lab-burp-request-analysis.png`        | OAuth request review                |
+| Test Area | Evidence File | Result Type |
+|---|---|---|
+| crAPI containers running | [Open Report](./reports/evidence/00-crapi-docker-containers-running-evidence-report.pdf) | Lab deployment proof |
+| crAPI homepage accessible | [Open Report](./reports/evidence/01-crapi-homepage-browser-evidence-report.pdf) | Target availability proof |
+| Postman login + JWT | [Open Report](./reports/evidence/02-postman-login-jwt-token-evidence-report.pdf) | Auth workflow captured |
+| JWT decoded in jwt.io | [Open Report](./reports/evidence/03-jwtio-decoded-token-evidence-report.pdf) | Token analysis |
+| Postman collection structure | [Open Report](./reports/evidence/04-postman-collection-structure-evidence-report.pdf) | Testing workflow |
+| API tools version check | [Open Report](./reports/evidence/05-api-tools-version-check-evidence-report.pdf) | Tool readiness |
+| BOLA / IDOR test | [Open Report](./reports/evidence/06-bola-idor-accessing-another-user-data-evidence-report.pdf) | Vulnerable behaviour observed |
+| JWT claim review | [Open Report](./reports/evidence/07-jwt-decodetoken-analysis-evidence-report.pdf) | Token claim analysis |
+| JWT attack attempt | [Open Report](./reports/evidence/08-jwt-attack-attempt-token-rejected-evidence-report.pdf) | Attack rejected / control validated |
+| Excessive data exposure | [Open Report](./reports/evidence/09-excessive-data-exposure-hidden-fields-evidence-report.pdf) | Data exposure review |
+| Rate-limit behaviour | [Open Report](./reports/evidence/10-no-rate-limiting-ffuf-running-p1-evidence-report.pdf) | ffuf testing evidence |
+| Rate-limit behaviour continued | [Open Report](./reports/evidence/11-no-rate-limiting-ffuf-running-p2-evidence-report.pdf) | ffuf testing evidence |
+| Mass assignment | [Open Report](./reports/evidence/12-mass-assignment-extra-fields-rejected-evidence-report.pdf) | Attack rejected / control validated |
+| Hidden endpoints | [Open Report](./reports/evidence/13-kiterunner-hidden-endpoints-discovered-evidence-report.pdf) | Endpoint discovery |
+| DVGA GraphQL lab | [Open Report](./reports/evidence/14-dvga-graphql-lab-running-evidence-report.pdf) | GraphQL lab proof |
+| GraphQL endpoint alive | [Open Report](./reports/evidence/15-graphql-endpoint-alive-evidence-report.pdf) | Endpoint availability |
+| GraphQL introspection | [Open Report](./reports/evidence/16-graphql-introspection-schema-discovery-evidence-report.pdf) | Schema discovery |
+| GraphQL data query | [Open Report](./reports/evidence/17-graphql-user-data-query-test-evidence-report.pdf) | Query testing |
+| OAuth request analysis | [Open Report](./reports/evidence/18-oauth-lab-burp-request-analysis-evidence-report.pdf) | OAuth request review |
 
 ---
 
