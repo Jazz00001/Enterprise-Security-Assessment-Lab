@@ -245,10 +245,13 @@ installed.png
 ```text
 Kali Linux environment, Docker lab target, DVWA browser access, and tool readiness were confirmed.
 ```
+---
+---
 ## 📄 Lab Setup and Tool Verification Document
 
-[📄 Lab Setup and Tool Verification Report](./reports/Web-VAPT-Report-Enterprise-Security-Assessment-Lab.pdf)
+[📄 Lab Setup and Tool Verification](./reports/01-web-vapt-lab-setup-and-tool-verification.pdf)
 
+---
 ---
 
 ### Phase 2 — Passive and Active Reconnaissance
@@ -286,7 +289,13 @@ Passive-Recon-p3.png
 ```text
 Reconnaissance identified exposed web services and application technology details for further testing.
 ```
+---
+---
+## 📄 Passive and Active Reconnaissance Document
 
+[📄 Passive and Active Reconnaissance](./reports/02-web-vapt-passive-active-reconnaissance.pdf)
+
+---
 ---
 
 ### Phase 3 — Directory and File Enumeration
@@ -314,7 +323,13 @@ Directory-&-File-Enumeration-with-Gobuster.png
 ```text
 Directory and file enumeration identified accessible application paths for manual validation.
 ```
+---
+---
 
+## 📄 Directory and File Enumeration Document
+[📄 Directory and File Enumeration](./reports/03-web-vapt-directory-file-enumeration.pdf)
+
+---
 ---
 
 ### Phase 4 — Vulnerability Scanning and Fingerprinting
@@ -341,7 +356,11 @@ whatweb http://127.0.0.1:8081
 ```text
 Nikto and WhatWeb provided scan findings and technology fingerprinting evidence.
 ```
-
+---
+---
+## 📄 Vulnerability Scanning and Fingerprinting Document
+[📄 Vulnerability Scanning and Fingerprinting](./reports/04-web-vapt-vulnerability-scanning-fingerprinting.pdf)
+---
 ---
 
 ### Phase 5 — Manual Request Analysis with Burp Suite
