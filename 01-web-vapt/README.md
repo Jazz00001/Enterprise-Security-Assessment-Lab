@@ -246,12 +246,10 @@ installed.png
 Kali Linux environment, Docker lab target, DVWA browser access, and tool readiness were confirmed.
 ```
 ---
----
 ## 📄 Lab Setup and Tool Verification Document
 
 [📄 Lab Setup and Tool Verification](./reports/01-web-vapt-lab-setup-and-tool-verification.pdf)
 
----
 ---
 
 ### Phase 2 — Passive and Active Reconnaissance
@@ -290,12 +288,10 @@ Passive-Recon-p3.png
 Reconnaissance identified exposed web services and application technology details for further testing.
 ```
 ---
----
 ## 📄 Passive and Active Reconnaissance Document
 
 [📄 Passive and Active Reconnaissance](./reports/02-web-vapt-passive-active-reconnaissance.pdf)
 
----
 ---
 
 ### Phase 3 — Directory and File Enumeration
@@ -324,12 +320,10 @@ Directory-&-File-Enumeration-with-Gobuster.png
 Directory and file enumeration identified accessible application paths for manual validation.
 ```
 ---
----
 
 ## 📄 Directory and File Enumeration Document
 [📄 Directory and File Enumeration](./reports/03-web-vapt-directory-file-enumeration.pdf)
 
----
 ---
 
 ### Phase 4 — Vulnerability Scanning and Fingerprinting
@@ -357,11 +351,10 @@ whatweb http://127.0.0.1:8081
 Nikto and WhatWeb provided scan findings and technology fingerprinting evidence.
 ```
 ---
----
 ## 📄 Vulnerability Scanning and Fingerprinting Document
 
 [📄Vulnerability Scanning and Fingerprinting](./reports/04-web-vapt-vulnerability-scanning-fingerprinting.pdf)
----
+
 ---
 
 ### Phase 5 — Manual Request Analysis with Burp Suite
@@ -392,11 +385,9 @@ Burp Suite was used to capture and modify requests for manual validation.
 Session cookies and PHPSESSID values should be redacted before public release.
 ```
 ---
----
 ## 📄 Burp Suite Manual Request Analysis Document
 [📄 Burp Suite Manual Request Analysis](./reports/05-web-vapt-burp-suite-manual-request-analysis.pdf)
 
----
 ---
 
 ### Phase 6 — SQL Injection Validation
@@ -438,12 +429,10 @@ Validate input server-side.
 Use least-privileged database accounts.
 ```
 ---
----
 ## 📄 SQL Injection Manual Validation Document
 
 [📄 SQL Injection Manual Validation](./reports/06-web-vapt-sql-injection-manual-validation.pdf)
 
----
 ---
 
 ### Phase 7 — SQLMap Database Enumeration
@@ -484,12 +473,10 @@ SQLMap was used to enumerate database information in the authorized DVWA lab.
 Database dumps, usernames, password hashes, and cracked passwords must be redacted before public release.
 ```
 ---
----
 ## 📄 SQLMap Database Enumeration Document
 
 [📄 SQLMap Database Enumeration](./reports/07-web-vapt-sqlmap-database-enumeration.pdf)
 
----
 ---
 
 ### Phase 8 — Hash Cracking
@@ -529,12 +516,10 @@ Enforce strong password policy.
 Protect databases from injection and unauthorized access.
 ```
 ---
----
 ## 📄 SQLMap Database Enumeration Document
 
 [📄 Hash Cracking with John the Ripper](./reports/08-web-vapt-hash-cracking-john.pdf)
 
----
 ---
 
 ### Phase 9 — Cross-Site Scripting Testing
@@ -592,12 +577,10 @@ Avoid rendering raw user-controlled input.
 Validate and encode input server-side and client-side.
 ```
 ---
----
 ## 📄 Cross-Site Scripting: Reflected and Stored Document
 
 [📄 Cross-Site Scripting: Reflected and Stored](./reports/09-web-vapt-cross-site-scripting-reflected-stored.pdf)
 
----
 ---
 
 ### Phase 10 — Command Injection Testing
@@ -641,12 +624,10 @@ Escape arguments safely where command execution is unavoidable.
 Run services with least privilege.
 ```
 ---
----
 ## 📄 Command Injection Document
 
 [📄 Command Injection](./reports/10-web-vapt-command-injection.pdf)
 
----
 ---
 
 ### Phase 11 — File Upload / Webshell Validation
@@ -691,12 +672,10 @@ Disable script execution in upload directories.
 Scan uploaded files.
 ```
 ---
----
 ## 📄 File Upload and Webshell Validation Document
 
 [📄 File Upload and Webshell Validation](./reports/11-web-vapt-file-upload-webshell-validation.pdf)
 
----
 ---
 
 ### Phase 12 — CSRF Testing
@@ -732,12 +711,10 @@ Require re-authentication for sensitive actions.
 Validate Origin and Referer headers where appropriate.
 ```
 ---
----
 ## 📄 File Upload and Webshell Validation Document
 
 [📄 CSRF Forged Request Testing](./reports/12-web-vapt-csrf-forged-request-testing.pdf)
 
----
 ---
 
 ## 📸 Evidence Screenshots
