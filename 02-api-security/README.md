@@ -59,6 +59,13 @@
 
 ---
 
+**API Security Document**
+
+[📄 API Security Professional Assessment Report](./reports/API_Security_Professional_Assessment_Report.pdf)
+
+---
+---
+
 ## 📋 Engagement Summary
 
 | Field                     | Details                                                               |
