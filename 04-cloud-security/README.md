@@ -208,16 +208,18 @@ Before and after running the AWS cloud lab, safety controls were used to reduce 
 
 ## 🧪 Evidence-Based Testing Summary
 
-| Test Area                      | Evidence File                                   | Result Type                                        |
-| ------------------------------ | ----------------------------------------------- | -------------------------------------------------- |
-| IAM permissions enumeration    | `iam-permissions-enumeration.png`               | IAM identity and policy review                     |
-| Pacu privilege escalation scan | `pacu-privesc-scan-results.png`                 | IAM privilege escalation analysis                  |
-| S3 unauthenticated access test | `s3-public-bucket-unauthenticated-access.png`   | S3 public/anonymous access behaviour test          |
-| ScoutSuite overview            | `scoutsuite-html-report-overview.png`           | AWS audit dashboard                                |
-| ScoutSuite detailed finding    | `scoutsuite-specific-high-severity-finding.png` | Specific security finding review                   |
-| IMDS credential exposure       | `imds-ec2-metadata-credentials-stolen.png`      | Metadata credential exposure with secrets redacted |
-| CloudGoat EC2 cleanup          | `13-cloudgoat-ec2-cleanup-verified.png`         | EC2 resource cleanup verification                  |
-| AWS Free Tier / billing check  | `14-aws-free-tier-cleanup-check.png`            | Cost and cleanup verification                      |
+| Test Area | Evidence File | Result Type |
+|---|---|---|
+| IAM permissions enumeration | [Open Report](./reports/evidence/01-iam-permissions-enumeration-evidence-report.pdf) | IAM identity and policy review |
+| Pacu privilege escalation scan | [Open Report](./reports/evidence/02-pacu-privilege-escalation-scan-evidence-report.pdf) | IAM privilege escalation analysis |
+| S3 unauthenticated access test | [Open Report](./reports/evidence/03-s3-unauthenticated-access-test-evidence-report.pdf) | S3 public/anonymous access behaviour test |
+| ScoutSuite overview | [Open Report](./reports/evidence/04-scoutsuite-overview-evidence-report.pdf) | AWS audit dashboard |
+| ScoutSuite detailed finding | [Open Report](./reports/evidence/05-scoutsuite-detailed-finding-evidence-report.pdf) | Specific security finding review |
+| IMDS credential exposure | [Open Report](./reports/evidence/06-imds-credential-exposure-evidence-report.pdf) | Metadata credential exposure with secrets redacted |
+| CloudGoat EC2 cleanup | [Open Report](./reports/evidence/07-cloudgoat-ec2-cleanup-evidence-report.pdf) | EC2 resource cleanup verification |
+| AWS Free Tier / billing check | [Open Report](./reports/evidence/08-aws-free-tier-billing-check-evidence-report.pdf) | Cost and cleanup verification |
+
+
 
 ---
 
@@ -257,6 +259,10 @@ AWS account ID and ARN account number must be redacted before publishing screens
 ```text
 AWS CLI authentication was confirmed using the dedicated lab profile.
 ```
+
+**AWS CLI Authentication and Identity Verification** 
+
+[Open Report](./reports/methodology/01-aws-cli-authentication-and-identity-verification-methodology-report.pdf)
 
 ---
 
@@ -317,6 +323,10 @@ Use permission boundaries where appropriate.
 Monitor IAM policy changes.
 ```
 
+**IAM Permissions Enumeration** 
+
+[Open Report](./reports/methodology/02-iam-permissions-enumeration-methodology-report.pdf)
+
 ---
 
 ## Phase 3 — Pacu Privilege Escalation Scan
@@ -367,6 +377,10 @@ Restrict privilege-sensitive actions such as iam:PassRole, iam:AttachUserPolicy,
 Use service control policies and permission boundaries.
 Monitor for unusual IAM and EC2 activity.
 ```
+
+**Pacu Privilege Escalation Scan** 
+
+[Open Report](./reports/methodology/03-pacu-privilege-escalation-scan-methodology-report.pdf)
 
 ---
 
@@ -427,6 +441,10 @@ Enable least privilege access.
 Monitor public bucket exposure with AWS Config / Security Hub.
 ```
 
+**S3 Public / Unauthenticated Access Testing** 
+
+[Open Report](./reports/methodology/04-s3-public-unauthenticated-access-testing-methodology-report.pdf)
+
 ---
 
 ## Phase 5 — ScoutSuite AWS Security Audit
@@ -472,6 +490,10 @@ Prioritize high-risk IAM and public exposure findings.
 Review Security Hub, AWS Config, GuardDuty, and CloudTrail coverage.
 Remediate findings based on risk and business context.
 ```
+
+**ScoutSuite AWS Security Audit** 
+
+[Open Report](./reports/methodology/05-scoutsuite-aws-security-audit-methodology-report.pdf)
 
 ---
 
@@ -524,6 +546,10 @@ Monitor metadata credential usage.
 Apply least privilege to EC2 instance profiles.
 ```
 
+**EC2 IMDS Credential Exposure Testing** 
+
+[Open Report](./reports/methodology/06-ec2-imds-credential-exposure-testing-methodology-report.pdf)
+
 ---
 
 ## Phase 7 — CloudGoat Objective and EC2 Cleanup Verification
@@ -566,6 +592,10 @@ Verify EC2, S3, IAM, and CloudFormation cleanup.
 Check billing and Free Tier usage after lab work.
 ```
 
+**CloudGoat Objective and EC2 Cleanup Verification** 
+
+[Open Report](./reports/methodology/07-cloudgoat-objective-and-ec2-cleanup-verification-methodology-report.pdf)
+
 ---
 
 ## Phase 8 — Free Tier / Billing Verification
@@ -606,6 +636,10 @@ Destroy labs after use.
 Check billing dashboards after every cloud lab session.
 ```
 
+**AWS Free Tier / Billing Verification** 
+
+[Open Report](./reports/methodology/08-aws-free-tier-billing-verification-methodology-report.pdf)
+
 ---
 
 ## 📊 MITRE ATT&CK Mapping
@@ -625,7 +659,7 @@ Check billing dashboards after every cloud lab session.
 
 ## 📸 Evidence Screenshots
 
-| #  | Screenshot                                      | Description                                            |
+| #  | Screenshot Names                                | Description                                            |
 | -- | ----------------------------------------------- | ------------------------------------------------------ |
 | 01 | `iam-permissions-enumeration.png`               | IAM identity and permission enumeration                |
 | 02 | `pacu-privesc-scan-results.png`                 | Pacu IAM privilege escalation scan                     |
@@ -642,29 +676,52 @@ Check billing dashboards after every cloud lab session.
 
 > AWS account IDs, ARNs, access keys, secret keys, session tokens, temporary credentials, public IPs, bucket names, and resource IDs should be redacted before public upload.
 
+IAM Permissions Enumeration
+---
 ![IAM Permissions Enumeration](./screenshots/iam-permissions-enumeration.png)
+---
 
+Pacu Privilege Escalation Scan Results
+---
 ![Pacu Privilege Escalation Scan Results](./screenshots/pacu-privesc-scan-results.png)
+---
 
+S3 Public Bucket Unauthenticated Access Test
+---
 ![S3 Public Bucket Unauthenticated Access Test](./screenshots/s3-public-bucket-unauthenticated-access.png)
+---
 
+ScoutSuite HTML Report Overview
+---
 ![ScoutSuite HTML Report Overview](./screenshots/scoutsuite-html-report-overview.png)
+---
 
+ScoutSuite Specific High Severity Finding
+---
 ![ScoutSuite Specific High Severity Finding](./screenshots/scoutsuite-specific-high-severity-finding.png)
+---
 
+IMDS EC2 Metadata Credentials Exposure
+---
 ![IMDS EC2 Metadata Credentials Exposure](./screenshots/imds-ec2-metadata-credentials-stolen.png)
+---
 
+CloudGoat EC2 Cleanup Verified
+---
 ![CloudGoat EC2 Cleanup Verified](./screenshots/13-cloudgoat-ec2-cleanup-verified.png)
+---
 
+AWS Free Tier Cleanup Check
+---
 ![AWS Free Tier Cleanup Check](./screenshots/14-aws-free-tier-cleanup-check.png)
-
+---
 ---
 
 ## 📊 Confirmed Lab Findings / Validated Tests
 
 This table is based only on the evidence currently available in this folder.
 
-| # | Finding / Test Case                    | Service               | Severity Style                                | Evidence                                        | Status             |
+| # | Finding / Test Case                    | Service               | Severity Style                                | Evidence Name                                   | Status             |
 | - | -------------------------------------- | --------------------- | --------------------------------------------- | ----------------------------------------------- | ------------------ |
 | 1 | IAM Permission Enumeration             | IAM                   | 🟡 Medium in real-world context               | `iam-permissions-enumeration.png`               | ✅ Completed        |
 | 2 | IAM Privilege Escalation Path Analysis | IAM                   | 🔴 Critical if exploitable in production      | `pacu-privesc-scan-results.png`                 | ✅ Validated in lab |
@@ -746,26 +803,6 @@ If any output is uploaded, replace sensitive values with placeholders:
 <REDACTED_BUCKET_NAME>
 <REDACTED_ROLE_NAME>
 <REDACTED_INSTANCE_ID>
-```
-
----
-
-## 📂 Files in This Folder
-
-```text
-04-cloud-security/
-├── README.md
-├── screenshots/
-│   ├── iam-permissions-enumeration.png
-│   ├── pacu-privesc-scan-results.png
-│   ├── s3-public-bucket-unauthenticated-access.png
-│   ├── scoutsuite-html-report-overview.png
-│   ├── scoutsuite-specific-high-severity-finding.png
-│   ├── imds-ec2-metadata-credentials-stolen.png
-│   ├── 13-cloudgoat-ec2-cleanup-verified.png
-│   └── 14-aws-free-tier-cleanup-check.png
-├── reports/
-└── scripts/
 ```
 
 ---
