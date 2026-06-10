@@ -62,7 +62,6 @@
 * [📊 Confirmed Lab Findings Table](#-confirmed-lab-findings-table)
 * [🧠 Key Security Lessons](#-key-security-lessons)
 * [🔐 Redaction and Safety Notes](#-redaction-and-safety-notes)
-* [📂 Files in This Folder](#-files-in-this-folder)
 * [✅ Completion Status](#-completion-status)
 
 ---
