@@ -64,7 +64,7 @@
 **Cloud Security Document**
 
 [📄 Cloud Security Professional Assessment Report](./reports/Cloud_Security_Professional_Assessment_Report.pdf)
----
+
 ---
 
 ## 📋 Engagement Summary
