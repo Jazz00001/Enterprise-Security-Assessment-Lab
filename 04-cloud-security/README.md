@@ -205,18 +205,19 @@ Before and after running the AWS cloud lab, safety controls were used to reduce 
 
 ---
 
-## 🧪 Evidence-Based Testing Summary
+## 📄 Cloud Security Individual Methodology PDFs
 
-| Test Area | Evidence File | Result Type |
+| # | Methodology Section | PDF |
 |---|---|---|
-| IAM permissions enumeration | [Open Report](./reports/evidence/01-iam-permissions-enumeration-evidence-report.pdf) | IAM identity and policy review |
-| Pacu privilege escalation scan | [Open Report](./reports/evidence/02-pacu-privilege-escalation-scan-evidence-report.pdf) | IAM privilege escalation analysis |
-| S3 unauthenticated access test | [Open Report](./reports/evidence/03-s3-unauthenticated-access-test-evidence-report.pdf) | S3 public/anonymous access behaviour test |
-| ScoutSuite overview | [Open Report](./reports/evidence/04-scoutsuite-overview-evidence-report.pdf) | AWS audit dashboard |
-| ScoutSuite detailed finding | [Open Report](./reports/evidence/05-scoutsuite-detailed-finding-evidence-report.pdf) | Specific security finding review |
-| IMDS credential exposure | [Open Report](./reports/evidence/06-imds-credential-exposure-evidence-report.pdf) | Metadata credential exposure with secrets redacted |
-| CloudGoat EC2 cleanup | [Open Report](./reports/evidence/07-cloudgoat-ec2-cleanup-evidence-report.pdf) | EC2 resource cleanup verification |
-| AWS Free Tier / billing check | [Open Report](./reports/evidence/08-aws-free-tier-billing-check-evidence-report.pdf) | Cost and cleanup verification |
+| 01 | AWS CLI Authentication and Identity Verification | [Open Report](./reports/methodology/01-aws-cli-authentication-and-identity-verification-methodology-report.pdf) |
+| 02 | IAM Permissions Enumeration | [Open Report](./reports/methodology/02-iam-permissions-enumeration-methodology-report.pdf) |
+| 03 | Pacu Privilege Escalation Scan | [Open Report](./reports/methodology/03-pacu-privilege-escalation-scan-methodology-report.pdf) |
+| 04 | S3 Public / Unauthenticated Access Testing | [Open Report](./reports/methodology/04-s3-public-unauthenticated-access-testing-methodology-report.pdf) |
+| 05 | ScoutSuite AWS Security Audit | [Open Report](./reports/methodology/05-scoutsuite-aws-security-audit-methodology-report.pdf) |
+| 06 | EC2 IMDS Credential Exposure Testing | [Open Report](./reports/methodology/06-ec2-imds-credential-exposure-testing-methodology-report.pdf) |
+| 07 | CloudGoat Objective and EC2 Cleanup Verification | [Open Report](./reports/methodology/07-cloudgoat-objective-and-ec2-cleanup-verification-methodology-report.pdf) |
+| 08 | AWS Free Tier / Billing Verification | [Open Report](./reports/methodology/08-aws-free-tier-billing-verification-methodology-report.pdf) |
+
 
 
 
