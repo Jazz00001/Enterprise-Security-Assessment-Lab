@@ -696,7 +696,7 @@ Rotate krbtgt if domain compromise is suspected.
 
 ## 📸 Evidence Screenshots
 
-| #   | Screenshot                                     | Description                                       |
+| #   | Screenshot Name                                | Description                                       |
 | --- | ---------------------------------------------- | ------------------------------------------------- |
 | 10  | `10-responder-ntlmv2-hash-captured.png`        | Responder captured NTLMv2 hash                    |
 | 11  | `11-hashcat-ntlmv2-cracked.png`                | Captured NTLMv2 hash cracked with Hashcat         |
