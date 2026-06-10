@@ -272,6 +272,10 @@ Key services expected on a Domain Controller:
 Domain services were identified and the internal lab environment was ready for Active Directory testing.
 ```
 
+**Lab Connectivity and Domain Enumeration** 
+
+[Open Report](./reports/methodology/01-ad-lab-connectivity-and-domain-enumeration-methodology-report.pdf)
+
 ---
 
 ## Phase 2 — Responder NTLMv2 Hash Capture
@@ -319,6 +323,10 @@ Monitor for rogue name resolution responses.
 Restrict unnecessary broadcast name resolution.
 ```
 
+**Responder NTLMv2 Hash Capture** 
+
+[Open Report](./reports/methodology/02-responder-ntlmv2-hash-capture-methodology-report.pdf)
+
 ---
 
 ## Phase 3 — Offline Hash Cracking with Hashcat
@@ -359,6 +367,10 @@ Deploy MFA where possible.
 Monitor for abnormal authentication attempts.
 Disable LLMNR/NBT-NS.
 ```
+
+**Offline Hash Cracking with Hashcat** 
+
+[Open Report](./reports/methodology/03-offline-hash-cracking-with-hashcat-methodology-report.pdf)
 
 ---
 
@@ -402,6 +414,10 @@ Restrict share permissions.
 Use least privilege for domain users.
 ```
 
+**SMB Credential Validation and Enumeration** 
+
+[Open Report](./reports/methodology/04-smb-credential-validation-and-enumeration-methodology-report.pdf)
+
 ---
 
 ## Phase 5 — Kerberoasting
@@ -443,6 +459,10 @@ Reduce SPN exposure.
 Avoid assigning privileged rights to service accounts.
 ```
 
+**Kerberoasting SPN Ticket Request** 
+
+[Open Report](./reports/methodology/05-kerberoasting-spn-ticket-request-methodology-report.pdf)
+
 ---
 
 ## Phase 6 — Kerberoast Hash Cracking
@@ -480,6 +500,10 @@ Rotate service account credentials.
 Monitor Kerberos ticket request patterns.
 Minimize service account privileges.
 ```
+
+**Kerberoast Hash Cracking** 
+
+[Open Report](./reports/methodology/06-kerberoast-hash-cracking-methodology-report.pdf)
 
 ---
 
@@ -545,6 +569,10 @@ Audit BloodHound-style attack paths defensively.
 Monitor changes to privileged groups.
 ```
 
+**BloodHound Attack Path Analysis** 
+
+[Open Report](./reports/methodology/07-bloodhound-attack-path-analysis-methodology-report.pdf)
+
 ---
 
 ## Phase 8 — Pass-the-Hash Validation
@@ -586,6 +614,10 @@ Monitor privileged logons.
 Rotate compromised credentials.
 Apply tiered administration.
 ```
+
+**Pass-the-Hash Validation** 
+
+[Open Report](./reports/methodology/08-pass-the-hash-validation-methodology-report.pdf)
 
 ---
 
@@ -635,6 +667,10 @@ Protect Domain Admin and replication-capable accounts.
 Rotate krbtgt if domain compromise is suspected.
 ```
 
+**DCSync Replication Abuse Testing** 
+
+[Open Report](./reports/methodology/09-dcsync-replication-abuse-testing-methodology-report.pdf)
+
 ---
 
 ## 📊 MITRE ATT&CK Mapping
@@ -672,25 +708,55 @@ Rotate krbtgt if domain compromise is suspected.
 
 > Full hashes, cracked passwords, Kerberos tickets, NTLM hashes, DCSync output, and domain secrets must be redacted before public upload.
 
+Responder NTLMv2 Hash Captured
+---
 ![Responder NTLMv2 Hash Captured](./screenshots/10-responder-ntlmv2-hash-captured.png)
+---
 
+Hashcat NTLMv2 Cracked
+---
 ![Hashcat NTLMv2 Cracked](./screenshots/11-hashcat-ntlmv2-cracked.png)
+---
 
+SMB Enumeration Credential Validation
+---
 ![SMB Enumeration Credential Validation](./screenshots/12-smb-enumeration-credential-validation.png)
+---
 
+Kerberoasting SPN Ticket Requested
+---
 ![Kerberoasting SPN Ticket Requested](./screenshots/13-kerberoasting-spn-ticket-requested.png)
+---
 
+Kerberoast Hash Cracked
+---
 ![Kerberoast Hash Cracked](./screenshots/14-kerberoast-hash-cracked.png)
+---
 
+BloodHound Attack Path Domain Admin
+---
 ![BloodHound Attack Path Domain Admin](./screenshots/15-bloodhound-attack-path-domain-admin.png)
+---
 
+BloodHound Domain Overview Graph
+---
 ![BloodHound Domain Overview Graph](./screenshots/16-bloodhound-domain-overview-graph.png)
+---
 
+Pass-the-Hash SYSTEM Shell Obtained
+---
 ![Pass-the-Hash SYSTEM Shell Obtained](./screenshots/17-pass-the-hash-system-shell-obtained.png)
+---
 
+DCSync Domain Hashes Dumped
+---
 ![DCSync Domain Hashes Dumped](./screenshots/18-dcsync-domain-hashes-dumped.png)
+---
 
+DCSync All Domain Hashes Dumped
+---
 ![DCSync All Domain Hashes Dumped](./screenshots/18b-dcsync-all-domain-hashes-dumped.png)
+---
 
 ---
 
@@ -776,28 +842,6 @@ If any output is uploaded, replace sensitive values with placeholders:
 <REDACTED_DOMAIN>
 <REDACTED_TICKET>
 <REDACTED_DCSYNC_OUTPUT>
-```
-
----
-
-## 📂 Files in This Folder
-
-```text
-03-ad-network/
-├── README.md
-├── screenshots/
-│   ├── 10-responder-ntlmv2-hash-captured.png
-│   ├── 11-hashcat-ntlmv2-cracked.png
-│   ├── 12-smb-enumeration-credential-validation.png
-│   ├── 13-kerberoasting-spn-ticket-requested.png
-│   ├── 14-kerberoast-hash-cracked.png
-│   ├── 15-bloodhound-attack-path-domain-admin.png
-│   ├── 16-bloodhound-domain-overview-graph.png
-│   ├── 17-pass-the-hash-system-shell-obtained.png
-│   ├── 18-dcsync-domain-hashes-dumped.png
-│   └── 18b-dcsync-all-domain-hashes-dumped.png
-├── reports/
-└── notes/
 ```
 
 ---
