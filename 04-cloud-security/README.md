@@ -58,7 +58,6 @@
 * [📊 Confirmed Lab Findings / Validated Tests](#-confirmed-lab-findings--validated-tests)
 * [🧠 Key Cloud Security Lessons](#-key-cloud-security-lessons)
 * [🔐 Redaction and Safety Notes](#-redaction-and-safety-notes)
-* [📂 Files in This Folder](#-files-in-this-folder)
 * [✅ Completion Status](#-completion-status)
 
 ---
